@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Headway Ag — Virtual Fencing Ear Tags</title>
+<meta name="description" content="Headway Ag builds self-powered twin ear-tag computers for virtual fencing and 24/7 herd intelligence. No wire. No posts. Patent pending.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<style>
+  :root{
+    --paper:#FAFAF7;
+    --ink:#1C2B22;
+    --ink-soft:#4A5B51;
+    --green-900:#14532D;
+    --green-600:#16A34A;
+    --green-100:#E8F3EC;
+    --card:#FFFFFF;
+    --line:#E3E8E2;
+    --shadow:0 10px 30px rgba(20,40,28,.08);
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--paper);color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased}
+  a{color:var(--green-600);text-decoration:none}
+  img{max-width:100%;display:block}
+
+  .nav{position:sticky;top:0;z-index:50;background:rgba(250,250,247,.65);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+  .nav-inner{max-width:1080px;margin:0 auto;padding:14px 24px;display:flex;align-items:center;justify-content:space-between}
+  .brand{display:flex;align-items:center;gap:10px;font-weight:700;letter-spacing:.02em;color:var(--ink);font-size:1.05rem}
+  .brand .dot{width:12px;height:12px;border-radius:3px;background:var(--green-600)}
+  .nav-links{display:flex;gap:28px;font-size:.95rem}
+  .nav-links a{color:var(--ink-soft);font-weight:500}
+  .nav-links a:hover{color:var(--green-600)}
+
+  .hero{max-width:1080px;margin:0 auto;padding:88px 24px 64px;display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center}
+  .badge{display:inline-flex;align-items:center;gap:8px;background:var(--green-100);color:var(--green-900);border:1px solid #CFE6D8;font-size:.8rem;font-weight:600;padding:6px 14px;border-radius:999px;margin-bottom:22px}
+  .badge .pulse{width:8px;height:8px;border-radius:50%;background:var(--green-600)}
+  h1{font-size:clamp(2.2rem,5vw,3.4rem);line-height:1.12;letter-spacing:-.02em;font-weight:800}
+  h1 .accent{color:var(--green-600)}
+  .hero p.sub{margin-top:20px;font-size:1.15rem;color:var(--ink-soft);max-width:34rem}
+  .hero-cta{margin-top:32px;display:flex;gap:14px;flex-wrap:wrap}
+  .btn{display:inline-block;padding:13px 26px;border-radius:10px;font-weight:600;font-size:.98rem}
+  .btn-primary{background:var(--green-900);color:#fff}
+  .btn-primary:hover{background:var(--green-600)}
+  .btn-ghost{border:1.5px solid var(--line);color:var(--ink);background:#fff}
+  .btn-ghost:hover{border-color:var(--green-600);color:var(--green-600)}
+  .hero-visual{background:linear-gradient(160deg,#F1F5F0,#E4EDE6);border:1px solid var(--line);border-radius:20px;padding:26px;box-shadow:var(--shadow)}
+  .hero-visual img{border-radius:12px}
+  .hero-visual figcaption{margin-top:14px;font-size:.83rem;color:var(--ink-soft);text-align:center}
+
+  .stats{max-width:1080px;margin:0 auto;padding:0 24px 72px;display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px 24px;text-align:center}
+  .stat b{display:block;font-size:1.7rem;font-weight:800;color:var(--green-900);letter-spacing:-.01em}
+  .stat span{font-size:.9rem;color:var(--ink-soft)}
+
+  section.band{padding:80px 24px}
+  .band-alt{background:#F2F5F0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .wrap{max-width:1080px;margin:0 auto}
+  .kicker{font-size:.8rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--green-600);margin-bottom:12px}
+  h2{font-size:clamp(1.7rem,3.4vw,2.4rem);letter-spacing:-.015em;font-weight:800;line-height:1.2}
+  .lede{margin-top:16px;font-size:1.1rem;color:var(--ink-soft);max-width:44rem}
+
+  .cards{margin-top:44px;display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:30px 28px;box-shadow:var(--shadow)}
+  .card .ico{width:46px;height:46px;border-radius:12px;background:var(--green-100);display:flex;align-items:center;justify-content:center;margin-bottom:18px}
+  .card .ico svg{width:24px;height:24px;stroke:var(--green-900);fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+  .card h3{font-size:1.15rem;font-weight:700;margin-bottom:10px}
+  .card p{font-size:.95rem;color:var(--ink-soft)}
+
+  .gallery{margin-top:44px;display:grid;grid-template-columns:1.35fr 1fr;gap:20px;align-items:stretch}
+  .shot{background:linear-gradient(165deg,#F3F5F2,#E9EDE8);border:1px solid var(--line);border-radius:18px;padding:24px;box-shadow:var(--shadow);display:flex;flex-direction:column;justify-content:center}
+  .shot img{border-radius:10px;width:100%;height:auto}
+  .shot figcaption{margin-top:14px;font-size:.85rem;color:var(--ink-soft);text-align:center}
+
+  .species{margin-top:36px;display:flex;flex-wrap:wrap;gap:10px}
+  .chip{background:#fff;border:1px solid var(--line);border-radius:999px;padding:8px 18px;font-size:.9rem;font-weight:600;color:var(--ink-soft)}
+
+  .contact{background:var(--green-900);color:#EAF3ED;border-radius:24px;padding:56px 48px;display:grid;grid-template-columns:1.2fr .8fr;gap:36px;align-items:center}
+  .contact h2{color:#fff}
+  .contact p{color:#C9DCCF;margin-top:14px;font-size:1.05rem}
+  .contact-card{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.16);border-radius:16px;padding:28px;backdrop-filter:blur(8px)}
+  .contact-card .row{display:flex;justify-content:space-between;gap:16px;padding:9px 0;border-bottom:1px solid rgba(255,255,255,.1);font-size:.95rem}
+  .contact-card .row:last-child{border-bottom:none}
+  .contact-card .k{color:#A8C4B2}
+  .contact-card .v{font-weight:600;color:#fff;text-align:right}
+  .contact-card a{color:#8FE6AE}
+
+  footer{max-width:1080px;margin:0 auto;padding:36px 24px 48px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:.85rem;color:var(--ink-soft)}
+
+  @media (max-width:880px){
+    .hero{grid-template-columns:1fr;padding-top:56px}
+    .stats{grid-template-columns:1fr}
+    .cards{grid-template-columns:1fr}
+    .gallery{grid-template-columns:1fr}
+    .contact{grid-template-columns:1fr;padding:40px 28px}
+    .nav-links{display:none}
+  }
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="#top"><span class="dot"></span>HEADWAY&nbsp;AG</a>
+    <div class="nav-links">
+      <a href="#technology">Technology</a>
+      <a href="#renders">Renders</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div>
+    <span class="badge"><span class="pulse"></span>PATENT PENDING</span>
+    <h1>Livestock management,<br><span class="accent">unplugged.</span></h1>
+    <p class="sub">Headway Ag builds self-powered twin ear-tag computers that replace physical fences with virtual ones — and turn every animal into a living sensor.</p>
+    <div class="hero-cta">
+      <a class="btn btn-primary" href="#contact">Get in touch</a>
+      <a class="btn btn-ghost" href="#technology">How it works</a>
+    </div>
+  </div>
+  <figure class="hero-visual">
+    <img src="images/hero.png" alt="Headway Ag twin ear-tag modules, front and rear views">
+    <figcaption>Twin ear-tag computer modules — Left and Right</figcaption>
+  </figure>
+</header>
+
+<div class="stats">
+  <div class="stat"><b>0</b><span>wire, posts, or fences required</span></div>
+  <div class="stat"><b>3</b><span>energy sources — solar, heat, motion</span></div>
+  <div class="stat"><b>24/7</b><span>health, location &amp; behavior monitoring</span></div>
+</div>
+
+<section class="band band-alt" id="technology">
+  <div class="wrap">
+    <div class="kicker">The Technology</div>
+    <h2>A fence you draw. A herd that listens.</h2>
+    <p class="lede">Since 1866, livestock management has been fenced in. Headway replaces barbed wire with a twin ear-tag platform: virtual boundaries drawn from your phone, enforced through humane audio cue and gentle guidance — while the tags watch over every animal, day and night.</p>
+    <div class="cards">
+      <div class="card">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M12 21s-7-5.5-7-11a7 7 0 0 1 14 0c0 5.5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></div>
+        <h3>Virtual Fencing</h3>
+        <p>Draw paddock boundaries in a mobile app and move the herd remotely. Rotation, laneways, and fire breaks — without a single post in the ground.</p>
+      </div>
+      <div class="card">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M13 2 4 14h6l-1 8 9-12h-6l1-8z"/></svg></div>
+        <h3>Self-Powered</h3>
+        <p>A triple energy-harvesting system — solar, body heat, and the motion of the ear itself — keeps each tag running continuously. No charging. No battery swaps.</p>
+      </div>
+      <div class="card">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M3 12h4l3-8 4 16 3-8h4"/></svg></div>
+        <h3>Herd Intelligence</h3>
+        <p>Temperature, location, and behavior stream from every animal over mesh, cellular, and satellite networks — turning health signals into early warnings.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="renders">
+  <div class="wrap">
+    <div class="kicker">The Hardware</div>
+    <h2>Small on the ear. Big in the field.</h2>
+    <p class="lede">A lightweight, weatherproof polymer twin-tag system: an identification disk facing forward, a computing housing behind the ear.</p>
+    <div class="gallery">
+      <figure class="shot">
+        <img src="images/front.png" alt="Front of ear identification disks with speaker openings, left green and right red">
+        <figcaption>Front-of-ear disk — visual number ID and speaker, Left and Right units</figcaption>
+      </figure>
+      <figure class="shot">
+        <img src="images/exploded.png" alt="Exploded view of ear tag modules showing rear housings with solar panels">
+        <figcaption>Rear housing with solar harvesting face — exploded assembly view</figcaption>
+      </figure>
+    </div>
+    <div class="species">
+      <span class="chip">Cattle</span><span class="chip">Sheep</span><span class="chip">Goats</span><span class="chip">Pigs</span><span class="chip">Horses</span><span class="chip">Donkeys</span>
+    </div>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap">
+    <div class="contact" id="contact">
+      <div>
+        <h2>Follow the herd.</h2>
+        <p>Headway Ag is in stealth development in Stuart, Florida. For partnership and pilot inquiries, reach out directly.</p>
+      </div>
+      <div class="contact-card">
+        <div class="row"><span class="k">Company</span><span class="v">Headway Ag LLC</span></div>
+        <div class="row"><span class="k">Contact</span><span class="v">Hugh Savory, Founder &amp; CEO</span></div>
+        <div class="row"><span class="k">Email</span><span class="v"><a href="mailto:hughredinian@gmail.com">hughredinian@gmail.com</a></span></div>
+        <div class="row"><span class="k">Location</span><span class="v">Stuart, Florida</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <span>© 2026 Headway Ag LLC · Stuart, Florida</span>
+  <span>Patent pending</span>
+</footer>
+
+</body>
+</html>
