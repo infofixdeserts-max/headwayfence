@@ -3,95 +3,167 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Headway Ag — Virtual Fencing Ear Tags</title>
-<meta name="description" content="Headway Ag builds self-powered twin ear-tag computers for virtual fencing and 24/7 herd intelligence. No wire. No posts. Patent pending.">
+<title>Headway Ag | Virtual Fencing Ear Tags</title>
+<meta name="description" content="Headway Ag builds self-powered twin ear-tag computers for virtual fencing, herd health, and land intelligence. No wire. No posts. Patent pending.">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <style>
   :root{
-    --paper:#FAFAF7;
-    --ink:#1C2B22;
-    --ink-soft:#4A5B51;
-    --green-900:#14532D;
-    --green-600:#16A34A;
-    --green-100:#E8F3EC;
+    --paper:#F6F4EC;
+    --ink:#17251F;
+    --ink-soft:#52605A;
+    --pine:#17694B;
+    --pine-deep:#0E3B2B;
+    --clay:#C4552F;
+    --gold:#D9A441;
     --card:#FFFFFF;
-    --line:#E3E8E2;
-    --shadow:0 10px 30px rgba(20,40,28,.08);
+    --line:#E4E0D3;
+    --dark:#0C1712;
+    --shadow:0 12px 34px rgba(23,37,31,.09);
   }
   *{margin:0;padding:0;box-sizing:border-box}
   html{scroll-behavior:smooth}
-  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--paper);color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased}
-  a{color:var(--green-600);text-decoration:none}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--paper);color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+  a{color:var(--pine);text-decoration:none}
   img{max-width:100%;display:block}
 
-  .nav{position:sticky;top:0;z-index:50;background:rgba(250,250,247,.65);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
-  .nav-inner{max-width:1080px;margin:0 auto;padding:14px 24px;display:flex;align-items:center;justify-content:space-between}
-  .brand{display:flex;align-items:center;gap:10px;font-weight:700;letter-spacing:.02em;color:var(--ink);font-size:1.05rem}
-  .brand .dot{width:12px;height:12px;border-radius:3px;background:var(--green-600)}
+  /* scroll progress */
+  #progress{position:fixed;top:0;left:0;height:3px;width:0;background:linear-gradient(90deg,var(--pine),var(--gold));z-index:99;transition:width .1s linear}
+
+  .nav{position:sticky;top:0;z-index:50;background:rgba(246,244,236,.7);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+  .nav-inner{max-width:1120px;margin:0 auto;padding:14px 24px;display:flex;align-items:center;justify-content:space-between}
+  .brand{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:.03em;color:var(--ink);font-size:1.05rem}
+  .brand .dot{width:12px;height:12px;border-radius:3px;background:linear-gradient(135deg,var(--pine),var(--gold))}
   .nav-links{display:flex;gap:28px;font-size:.95rem}
-  .nav-links a{color:var(--ink-soft);font-weight:500}
-  .nav-links a:hover{color:var(--green-600)}
+  .nav-links a{color:var(--ink-soft);font-weight:600;position:relative}
+  .nav-links a::after{content:"";position:absolute;left:0;bottom:-4px;width:0;height:2px;background:var(--pine);transition:width .25s ease}
+  .nav-links a:hover::after{width:100%}
+  .nav-links a:hover{color:var(--pine)}
 
-  .hero{max-width:1080px;margin:0 auto;padding:88px 24px 64px;display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center}
-  .badge{display:inline-flex;align-items:center;gap:8px;background:var(--green-100);color:var(--green-900);border:1px solid #CFE6D8;font-size:.8rem;font-weight:600;padding:6px 14px;border-radius:999px;margin-bottom:22px}
-  .badge .pulse{width:8px;height:8px;border-radius:50%;background:var(--green-600)}
-  h1{font-size:clamp(2.2rem,5vw,3.4rem);line-height:1.12;letter-spacing:-.02em;font-weight:800}
-  h1 .accent{color:var(--green-600)}
-  .hero p.sub{margin-top:20px;font-size:1.15rem;color:var(--ink-soft);max-width:34rem}
+  /* reveal animation */
+  .reveal{opacity:0;transform:translateY(26px);transition:opacity .7s cubic-bezier(.2,.7,.3,1),transform .7s cubic-bezier(.2,.7,.3,1)}
+  .reveal.in{opacity:1;transform:none}
+  .d1{transition-delay:.08s}.d2{transition-delay:.16s}.d3{transition-delay:.24s}.d4{transition-delay:.32s}
+
+  .hero{max-width:1120px;margin:0 auto;padding:92px 24px 64px;display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center}
+  .badge{display:inline-flex;align-items:center;gap:8px;background:#EAF3EC;color:var(--pine-deep);border:1px solid #CDE3D4;font-size:.8rem;font-weight:700;padding:6px 14px;border-radius:999px;margin-bottom:22px}
+  .badge .pulse{width:8px;height:8px;border-radius:50%;background:var(--pine);animation:pulse 2s infinite}
+  @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(23,105,75,.45)}70%{box-shadow:0 0 0 9px rgba(23,105,75,0)}100%{box-shadow:0 0 0 0 rgba(23,105,75,0)}}
+  h1{font-size:clamp(2.2rem,5vw,3.4rem);line-height:1.1;letter-spacing:-.02em;font-weight:800}
+  h1 .accent{color:var(--pine)}
+  .hero p.sub{margin-top:20px;font-size:1.14rem;color:var(--ink-soft);max-width:34rem}
   .hero-cta{margin-top:32px;display:flex;gap:14px;flex-wrap:wrap}
-  .btn{display:inline-block;padding:13px 26px;border-radius:10px;font-weight:600;font-size:.98rem}
-  .btn-primary{background:var(--green-900);color:#fff}
-  .btn-primary:hover{background:var(--green-600)}
+  .btn{display:inline-block;padding:13px 26px;border-radius:10px;font-weight:700;font-size:.98rem;transition:transform .2s ease,box-shadow .2s ease}
+  .btn:hover{transform:translateY(-2px)}
+  .btn-primary{background:var(--pine);color:#fff;box-shadow:0 6px 18px rgba(23,105,75,.25)}
+  .btn-primary:hover{background:var(--pine-deep)}
   .btn-ghost{border:1.5px solid var(--line);color:var(--ink);background:#fff}
-  .btn-ghost:hover{border-color:var(--green-600);color:var(--green-600)}
-  .hero-visual{background:linear-gradient(160deg,#F1F5F0,#E4EDE6);border:1px solid var(--line);border-radius:20px;padding:26px;box-shadow:var(--shadow)}
-  .hero-visual img{border-radius:12px}
-  .hero-visual figcaption{margin-top:14px;font-size:.83rem;color:var(--ink-soft);text-align:center}
+  .btn-ghost:hover{border-color:var(--pine);color:var(--pine)}
+  .hero-visual{border-radius:20px;overflow:hidden;box-shadow:var(--shadow);border:1px solid var(--line);background:#fff}
+  .hero-visual img{width:100%;transform:scale(1);animation:kenburns 14s ease-in-out infinite alternate}
+  @keyframes kenburns{from{transform:scale(1)}to{transform:scale(1.05)}}
+  .hero-visual figcaption{padding:14px;font-size:.83rem;color:var(--ink-soft);text-align:center;background:#fff}
 
-  .stats{max-width:1080px;margin:0 auto;padding:0 24px 72px;display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
-  .stat{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px 24px;text-align:center}
-  .stat b{display:block;font-size:1.7rem;font-weight:800;color:var(--green-900);letter-spacing:-.01em}
+  .stats{max-width:1120px;margin:0 auto;padding:0 24px 76px;display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px 24px;text-align:center;transition:transform .25s ease,box-shadow .25s ease}
+  .stat:hover{transform:translateY(-4px);box-shadow:var(--shadow)}
+  .stat b{display:block;font-size:1.9rem;font-weight:800;color:var(--pine-deep)}
   .stat span{font-size:.9rem;color:var(--ink-soft)}
 
-  section.band{padding:80px 24px}
-  .band-alt{background:#F2F5F0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-  .wrap{max-width:1080px;margin:0 auto}
-  .kicker{font-size:.8rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--green-600);margin-bottom:12px}
+  /* marquee */
+  .marquee{background:var(--pine-deep);color:#DFF0E5;overflow:hidden;white-space:nowrap;padding:13px 0;border-top:1px solid rgba(255,255,255,.08);border-bottom:1px solid rgba(255,255,255,.08)}
+  .marquee-track{display:inline-block;animation:scroll 38s linear infinite}
+  .marquee:hover .marquee-track{animation-play-state:paused}
+  .marquee span{font-size:.92rem;font-weight:600;letter-spacing:.04em;margin:0 18px}
+  .marquee .sep{color:var(--gold)}
+  @keyframes scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+
+  section.band{padding:84px 24px}
+  .band-alt{background:#EFEBDD;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .wrap{max-width:1120px;margin:0 auto}
+  .kicker{font-size:.8rem;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--clay);margin-bottom:12px}
   h2{font-size:clamp(1.7rem,3.4vw,2.4rem);letter-spacing:-.015em;font-weight:800;line-height:1.2}
-  .lede{margin-top:16px;font-size:1.1rem;color:var(--ink-soft);max-width:44rem}
+  .lede{margin-top:16px;font-size:1.08rem;color:var(--ink-soft);max-width:46rem}
 
-  .cards{margin-top:44px;display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
-  .card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:30px 28px;box-shadow:var(--shadow)}
-  .card .ico{width:46px;height:46px;border-radius:12px;background:var(--green-100);display:flex;align-items:center;justify-content:center;margin-bottom:18px}
-  .card .ico svg{width:24px;height:24px;stroke:var(--green-900);fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
-  .card h3{font-size:1.15rem;font-weight:700;margin-bottom:10px}
-  .card p{font-size:.95rem;color:var(--ink-soft)}
+  .cards{margin-top:44px;display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:28px 24px;box-shadow:var(--shadow);transition:transform .28s ease,box-shadow .28s ease}
+  .card:hover{transform:translateY(-6px);box-shadow:0 18px 44px rgba(23,37,31,.14)}
+  .card .ico{width:48px;height:48px;border-radius:12px;background:#EAF3EC;display:flex;align-items:center;justify-content:center;margin-bottom:16px}
+  .card .ico svg{width:26px;height:26px;stroke:var(--pine);fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+  .card.c-storm .ico{background:#FDF3E3}
+  .card.c-storm .ico svg{stroke:var(--gold)}
+  .card h3{font-size:1.08rem;font-weight:800;margin-bottom:8px}
+  .card p{font-size:.92rem;color:var(--ink-soft)}
+  .bolt-anim{animation:bolt 3.2s ease-in-out infinite}
+  @keyframes bolt{0%,88%,100%{opacity:1}92%{opacity:.25}96%{opacity:1}}
 
+  /* senses */
+  .sense-groups{margin-top:44px;display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+  .sgroup{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:26px;box-shadow:var(--shadow)}
+  .sgroup h3{font-size:.85rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;margin-bottom:16px}
+  .sgroup.g-animal h3{color:var(--pine)}
+  .sgroup.g-land h3{color:var(--gold)}
+  .sgroup.g-threat h3{color:var(--clay)}
+  .chips{display:flex;flex-wrap:wrap;gap:8px}
+  .chip{background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:7px 14px;font-size:.86rem;font-weight:600;color:var(--ink);transition:border-color .2s ease,color .2s ease}
+  .chip:hover{border-color:var(--pine);color:var(--pine)}
+  .allin{margin-top:22px;background:linear-gradient(120deg,var(--pine-deep),var(--pine));color:#EAF6EE;border-radius:16px;padding:20px 26px;font-size:1.02rem;font-weight:600;display:flex;gap:12px;align-items:center}
+  .allin .ico{flex:none;width:38px;height:38px;border-radius:10px;background:rgba(255,255,255,.14);display:flex;align-items:center;justify-content:center}
+  .allin .ico svg{width:22px;height:22px;stroke:var(--gold);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+
+  /* hardware gallery */
   .gallery{margin-top:44px;display:grid;grid-template-columns:1.35fr 1fr;gap:20px;align-items:stretch}
-  .shot{background:linear-gradient(165deg,#F3F5F2,#E9EDE8);border:1px solid var(--line);border-radius:18px;padding:24px;box-shadow:var(--shadow);display:flex;flex-direction:column;justify-content:center}
-  .shot img{border-radius:10px;width:100%;height:auto}
+  .shot{background:linear-gradient(165deg,#F3F1E7,#E9E5D6);border:1px solid var(--line);border-radius:18px;padding:24px;box-shadow:var(--shadow);display:flex;flex-direction:column;justify-content:center;overflow:hidden}
+  .shot img{border-radius:10px;width:100%;transition:transform .5s cubic-bezier(.2,.7,.3,1)}
+  .shot:hover img{transform:scale(1.035)}
   .shot figcaption{margin-top:14px;font-size:.85rem;color:var(--ink-soft);text-align:center}
 
-  .species{margin-top:36px;display:flex;flex-wrap:wrap;gap:10px}
-  .chip{background:#fff;border:1px solid var(--line);border-radius:999px;padding:8px 18px;font-size:.9rem;font-weight:600;color:var(--ink-soft)}
+  /* electronics dark band */
+  .band-dark{background:radial-gradient(1200px 500px at 70% -10%,#123324 0%,var(--dark) 60%);color:#E8F2EA;border-top:1px solid #1E352A;border-bottom:1px solid #1E352A}
+  .band-dark .kicker{color:var(--gold)}
+  .band-dark h2{color:#fff}
+  .band-dark .lede{color:#A9C3B2}
+  .boards{margin-top:44px;display:grid;grid-template-columns:1.25fr 1fr 1fr;gap:18px}
+  .board{background:#0A120E;border:1px solid #1E352A;border-radius:16px;overflow:hidden;transition:transform .3s ease,border-color .3s ease}
+  .board:hover{transform:translateY(-5px);border-color:var(--gold)}
+  .board .imgbox{background:#000;overflow:hidden}
+  .board img{width:100%;height:230px;object-fit:cover;transition:transform .5s ease}
+  .board:hover img{transform:scale(1.06)}
+  .board .meta{padding:16px 18px}
+  .board .meta b{font-size:1rem;color:var(--gold);letter-spacing:.06em}
+  .board .meta p{font-size:.86rem;color:#A9C3B2;margin-top:4px}
 
-  .contact{background:var(--green-900);color:#EAF3ED;border-radius:24px;padding:56px 48px;display:grid;grid-template-columns:1.2fr .8fr;gap:36px;align-items:center}
+  .species{margin-top:36px;display:flex;flex-wrap:wrap;gap:10px}
+
+  .contact{background:var(--pine-deep);color:#EAF3ED;border-radius:24px;padding:56px 48px;display:grid;grid-template-columns:1.2fr .8fr;gap:36px;align-items:center;position:relative;overflow:hidden}
+  .contact::before{content:"";position:absolute;right:-80px;top:-80px;width:280px;height:280px;border-radius:50%;background:radial-gradient(circle,rgba(217,164,65,.18),transparent 70%)}
   .contact h2{color:#fff}
   .contact p{color:#C9DCCF;margin-top:14px;font-size:1.05rem}
   .contact-card{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.16);border-radius:16px;padding:28px;backdrop-filter:blur(8px)}
   .contact-card .row{display:flex;justify-content:space-between;gap:16px;padding:9px 0;border-bottom:1px solid rgba(255,255,255,.1);font-size:.95rem}
   .contact-card .row:last-child{border-bottom:none}
   .contact-card .k{color:#A8C4B2}
-  .contact-card .v{font-weight:600;color:#fff;text-align:right}
+  .contact-card .v{font-weight:700;color:#fff;text-align:right}
   .contact-card a{color:#8FE6AE}
 
-  footer{max-width:1080px;margin:0 auto;padding:36px 24px 48px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:.85rem;color:var(--ink-soft)}
+  footer{max-width:1120px;margin:0 auto;padding:36px 24px 48px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:.85rem;color:var(--ink-soft)}
 
+  @media (prefers-reduced-motion:reduce){
+    .reveal{opacity:1;transform:none;transition:none}
+    .marquee-track,.hero-visual img,.bolt-anim,.badge .pulse{animation:none}
+    html{scroll-behavior:auto}
+  }
+  @media (max-width:980px){
+    .cards{grid-template-columns:repeat(2,1fr)}
+    .boards{grid-template-columns:1fr 1fr}
+    .board:first-child{grid-column:1 / -1}
+  }
   @media (max-width:880px){
     .hero{grid-template-columns:1fr;padding-top:56px}
     .stats{grid-template-columns:1fr}
     .cards{grid-template-columns:1fr}
+    .sense-groups{grid-template-columns:1fr}
     .gallery{grid-template-columns:1fr}
+    .boards{grid-template-columns:1fr}
     .contact{grid-template-columns:1fr;padding:40px 28px}
     .nav-links{display:none}
   }
@@ -99,12 +171,16 @@
 </head>
 <body>
 
+<div id="progress"></div>
+
 <nav class="nav">
   <div class="nav-inner">
     <a class="brand" href="#top"><span class="dot"></span>HEADWAY&nbsp;AG</a>
     <div class="nav-links">
       <a href="#technology">Technology</a>
-      <a href="#renders">Renders</a>
+      <a href="#senses">Sensing</a>
+      <a href="#hardware">Hardware</a>
+      <a href="#electronics">Electronics</a>
       <a href="#contact">Contact</a>
     </div>
   </div>
@@ -112,82 +188,148 @@
 
 <header class="hero" id="top">
   <div>
-    <span class="badge"><span class="pulse"></span>PATENT PENDING</span>
-    <h1>Livestock management,<br><span class="accent">unplugged.</span></h1>
-    <p class="sub">Headway Ag builds self-powered twin ear-tag computers that replace physical fences with virtual ones — and turn every animal into a living sensor.</p>
-    <div class="hero-cta">
+    <span class="badge reveal"><span class="pulse"></span>PATENT PENDING</span>
+    <h1 class="reveal d1">Livestock management,<br><span class="accent">unplugged.</span></h1>
+    <p class="sub reveal d2">Headway Ag builds self-powered twin ear-tag computers that replace physical fences with virtual ones and turn every animal into a living sensor.</p>
+    <div class="hero-cta reveal d3">
       <a class="btn btn-primary" href="#contact">Get in touch</a>
       <a class="btn btn-ghost" href="#technology">How it works</a>
     </div>
   </div>
-  <figure class="hero-visual">
-    <img src="images/hero.png" alt="Headway Ag twin ear-tag modules, front and rear views">
-    <figcaption>Twin ear-tag computer modules — Left and Right</figcaption>
+  <figure class="hero-visual reveal d2">
+    <img src="images/hero.png" alt="Headway Ag twin ear-tag modules, left and right, studio render">
+    <figcaption>Twin ear-tag computer modules, left and right</figcaption>
   </figure>
 </header>
 
 <div class="stats">
-  <div class="stat"><b>0</b><span>wire, posts, or fences required</span></div>
-  <div class="stat"><b>3</b><span>energy sources — solar, heat, motion</span></div>
-  <div class="stat"><b>24/7</b><span>health, location &amp; behavior monitoring</span></div>
+  <div class="stat reveal"><b>0</b><span>wire, posts, or fences required</span></div>
+  <div class="stat reveal d1"><b data-count="3">0</b><span>energy sources: solar, heat, motion</span></div>
+  <div class="stat reveal d2"><b><span data-count="24">0</span>/7</b><span>health, location and behavior monitoring</span></div>
+</div>
+
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span>Heart rate</span><span class="sep">•</span><span>Body temperature</span><span class="sep">•</span><span>GPS location</span><span class="sep">•</span><span>Rumination</span><span class="sep">•</span><span>Pregnancy</span><span class="sep">•</span><span>Calving alerts</span><span class="sep">•</span><span>Weight trends</span><span class="sep">•</span><span>Wolf activity</span><span class="sep">•</span><span>Stress signals</span><span class="sep">•</span><span>Grass growth</span><span class="sep">•</span><span>Forage classification</span><span class="sep">•</span><span>Pasture biomass</span><span class="sep">•</span><span>Lightning strikes</span><span class="sep">•</span><span>Fire heat</span><span class="sep">•</span><span>Humidity</span><span class="sep">•</span><span>Herd density</span><span class="sep">•</span>
+    <span>Heart rate</span><span class="sep">•</span><span>Body temperature</span><span class="sep">•</span><span>GPS location</span><span class="sep">•</span><span>Rumination</span><span class="sep">•</span><span>Pregnancy</span><span class="sep">•</span><span>Calving alerts</span><span class="sep">•</span><span>Weight trends</span><span class="sep">•</span><span>Wolf activity</span><span class="sep">•</span><span>Stress signals</span><span class="sep">•</span><span>Grass growth</span><span class="sep">•</span><span>Forage classification</span><span class="sep">•</span><span>Pasture biomass</span><span class="sep">•</span><span>Lightning strikes</span><span class="sep">•</span><span>Fire heat</span><span class="sep">•</span><span>Humidity</span><span class="sep">•</span><span>Herd density</span><span class="sep">•</span>
+  </div>
 </div>
 
 <section class="band band-alt" id="technology">
   <div class="wrap">
-    <div class="kicker">The Technology</div>
-    <h2>A fence you draw. A herd that listens.</h2>
-    <p class="lede">Since 1866, livestock management has been fenced in. Headway replaces barbed wire with a twin ear-tag platform: virtual boundaries drawn from your phone, enforced through humane audio cue and gentle guidance — while the tags watch over every animal, day and night.</p>
+    <div class="kicker reveal">The Technology</div>
+    <h2 class="reveal d1">Know every animal, every minute.</h2>
+    <p class="lede reveal d2">Headway replaces barbed wire with a self-powered ear-tag platform. Draw paddock boundaries from your phone, guide the herd with humane audio cues, and stream health and land data from every animal, day and night. One system for the whole operation.</p>
     <div class="cards">
-      <div class="card">
+      <div class="card reveal">
         <div class="ico"><svg viewBox="0 0 24 24"><path d="M12 21s-7-5.5-7-11a7 7 0 0 1 14 0c0 5.5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></div>
         <h3>Virtual Fencing</h3>
-        <p>Draw paddock boundaries in a mobile app and move the herd remotely. Rotation, laneways, and fire breaks — without a single post in the ground.</p>
+        <p>Draw paddock boundaries in a mobile app and move the herd remotely. Rotation, laneways, and fire breaks without a single post in the ground.</p>
       </div>
-      <div class="card">
+      <div class="card reveal d1">
         <div class="ico"><svg viewBox="0 0 24 24"><path d="M13 2 4 14h6l-1 8 9-12h-6l1-8z"/></svg></div>
         <h3>Self-Powered</h3>
-        <p>A triple energy-harvesting system — solar, body heat, and the motion of the ear itself — keeps each tag running continuously. No charging. No battery swaps.</p>
+        <p>Triple energy harvesting: solar, body heat, and the motion of the ear itself. No charging, no battery swaps, year after year.</p>
       </div>
-      <div class="card">
+      <div class="card reveal d2">
         <div class="ico"><svg viewBox="0 0 24 24"><path d="M3 12h4l3-8 4 16 3-8h4"/></svg></div>
         <h3>Herd Intelligence</h3>
-        <p>Temperature, location, and behavior stream from every animal over mesh, cellular, and satellite networks — turning health signals into early warnings.</p>
+        <p>Temperature, location, and behavior stream from every animal over mesh, cellular, and satellite links into one live picture.</p>
+      </div>
+      <div class="card c-storm reveal d3">
+        <div class="ico"><svg class="bolt-anim" viewBox="0 0 24 24"><path d="M12 2 5 13h5l-1 9 8-12h-5l1-8z"/></svg></div>
+        <h3>Storm Sense</h3>
+        <p>Onboard sensors detect lightning strikes and brush-fire heat locally, warning the herd and the rancher before regional alerts arrive.</p>
       </div>
     </div>
   </div>
 </section>
 
-<section class="band" id="renders">
+<section class="band" id="senses">
   <div class="wrap">
-    <div class="kicker">The Hardware</div>
-    <h2>Small on the ear. Big in the field.</h2>
-    <p class="lede">A lightweight, weatherproof polymer twin-tag system: an identification disk facing forward, a computing housing behind the ear.</p>
+    <div class="kicker reveal">What It Senses</div>
+    <h2 class="reveal d1">A thousand data points per animal.</h2>
+    <p class="lede reveal d2">Every tag watches the animal, the land, and the sky at the same time, then feeds one shared picture to your phone, tablet, or desktop.</p>
+    <div class="sense-groups">
+      <div class="sgroup g-animal reveal">
+        <h3>The Animal</h3>
+        <div class="chips">
+          <span class="chip">Heart rate</span><span class="chip">Body temperature</span><span class="chip">Rumination time</span><span class="chip">Movement patterns</span><span class="chip">Pregnancy</span><span class="chip">Estrus cycles</span><span class="chip">Calving alerts</span><span class="chip">Weight trends</span><span class="chip">Stress levels</span>
+        </div>
+      </div>
+      <div class="sgroup g-land reveal d1">
+        <h3>The Land</h3>
+        <div class="chips">
+          <span class="chip">Grass growth</span><span class="chip">Forage classification</span><span class="chip">Pasture biomass</span><span class="chip">Humidity</span><span class="chip">Ambient temperature</span><span class="chip">Herd density</span><span class="chip">Plant recovery</span><span class="chip">Water points</span>
+        </div>
+      </div>
+      <div class="sgroup g-threat reveal d2">
+        <h3>The Threats</h3>
+        <div class="chips">
+          <span class="chip">Wolf activity</span><span class="chip">Predation events</span><span class="chip">Lightning strikes</span><span class="chip">Brush-fire heat</span><span class="chip">Theft movement</span><span class="chip">Parasite cycles</span><span class="chip">System faults</span>
+        </div>
+      </div>
+    </div>
+    <div class="allin reveal">
+      <div class="ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></div>
+      One system for everything: fencing, health, breeding, land, weather, and security in a single app.
+    </div>
+  </div>
+</section>
+
+<section class="band band-alt" id="hardware">
+  <div class="wrap">
+    <div class="kicker reveal">The Hardware</div>
+    <h2 class="reveal d1">From CAD to pasture.</h2>
+    <p class="lede reveal d2">A lightweight, weatherproof polymer twin-tag system: an identification disk facing forward, a computing housing behind the ear.</p>
     <div class="gallery">
-      <figure class="shot">
-        <img src="images/front.png" alt="Front of ear identification disks with speaker openings, left green and right red">
-        <figcaption>Front-of-ear disk — visual number ID and speaker, Left and Right units</figcaption>
+      <figure class="shot reveal">
+        <img src="images/front.png" alt="Front-of-ear identification disks with speaker openings, left green and right red">
+        <figcaption>Front-of-ear disk: visual number ID and speaker, left and right units</figcaption>
       </figure>
-      <figure class="shot">
-        <img src="images/exploded.png" alt="Exploded view of ear tag modules showing rear housings with solar panels">
-        <figcaption>Rear housing with solar harvesting face — exploded assembly view</figcaption>
+      <figure class="shot reveal d1">
+        <img src="images/exploded.png" alt="Exploded view of ear tag housings with solar panel faces">
+        <figcaption>Rear housing with solar harvesting face, exploded view</figcaption>
       </figure>
     </div>
-    <div class="species">
+    <div class="species reveal">
       <span class="chip">Cattle</span><span class="chip">Sheep</span><span class="chip">Goats</span><span class="chip">Pigs</span><span class="chip">Horses</span><span class="chip">Donkeys</span>
+    </div>
+  </div>
+</section>
+
+<section class="band band-dark" id="electronics">
+  <div class="wrap">
+    <div class="kicker reveal">The Electronics</div>
+    <h2 class="reveal d1">Designed board by board.</h2>
+    <p class="lede reveal d2">Every module is drawn, routed, and revised in-house in KiCad. These are the working G1 platform boards.</p>
+    <div class="boards">
+      <div class="board reveal">
+        <div class="imgbox"><img src="images/g1_board.png" alt="G1 main comms and power board render"></div>
+        <div class="meta"><b>G1</b><p>Main comms board: cellular, satellite, and mesh radio with power regulation and the high-voltage cue driver.</p></div>
+      </div>
+      <div class="board reveal d1">
+        <div class="imgbox"><img src="images/l1_board.png" alt="L1 left ear tag prototype board render"></div>
+        <div class="meta"><b>L1</b><p>Left-ear prototype: sensing, ID, and audio cue hardware.</p></div>
+      </div>
+      <div class="board reveal d2">
+        <div class="imgbox"><img src="images/r1_board.png" alt="R1 right ear tag prototype board render"></div>
+        <div class="meta"><b>R1</b><p>Right-ear prototype: sensing, ID, and audio cue hardware.</p></div>
+      </div>
     </div>
   </div>
 </section>
 
 <section class="band">
   <div class="wrap">
-    <div class="contact" id="contact">
+    <div class="contact reveal" id="contact">
       <div>
         <h2>Follow the herd.</h2>
         <p>Headway Ag is in stealth development in Stuart, Florida. For partnership and pilot inquiries, reach out directly.</p>
       </div>
       <div class="contact-card">
         <div class="row"><span class="k">Company</span><span class="v">Headway Ag LLC</span></div>
-        <div class="row"><span class="k">Contact</span><span class="v">Hugh Savory, Founder &amp; CEO</span></div>
+        <div class="row"><span class="k">Contact</span><span class="v">Hugh Savory, Founder and CEO</span></div>
         <div class="row"><span class="k">Email</span><span class="v"><a href="mailto:hughheadwayag@gmail.com">hughheadwayag@gmail.com</a></span></div>
         <div class="row"><span class="k">Location</span><span class="v">Stuart, Florida</span></div>
       </div>
@@ -199,6 +341,37 @@
   <span>© 2026 Headway Ag LLC · Stuart, Florida</span>
   <span>Patent pending</span>
 </footer>
+
+<script>
+  // scroll progress
+  const bar = document.getElementById('progress');
+  addEventListener('scroll', () => {
+    const h = document.documentElement;
+    bar.style.width = (h.scrollTop / (h.scrollHeight - h.clientHeight) * 100) + '%';
+  }, {passive:true});
+
+  // reveal on scroll
+  const io = new IntersectionObserver(es => {
+    es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+  }, {threshold:.12});
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+  // count-up numbers
+  const cio = new IntersectionObserver(es => {
+    es.forEach(e => {
+      if (!e.isIntersecting) return;
+      const el = e.target, target = +el.dataset.count, t0 = performance.now();
+      const tick = now => {
+        const p = Math.min((now - t0) / 1200, 1);
+        el.textContent = Math.round(target * (1 - Math.pow(1 - p, 3)));
+        if (p < 1) requestAnimationFrame(tick);
+      };
+      requestAnimationFrame(tick);
+      cio.unobserve(el);
+    });
+  }, {threshold:.5});
+  document.querySelectorAll('[data-count]').forEach(el => cio.observe(el));
+</script>
 
 </body>
 </html>
