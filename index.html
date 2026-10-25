@@ -81,7 +81,7 @@
   html{scroll-behavior:smooth}
   body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--paper);color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
   a{color:var(--pine);text-decoration:none}
-  img{max-width:100%;display:block}
+  img{max-width:100%;height:auto;display:block}
 
   /* scroll progress */
   #progress{position:fixed;top:0;left:0;height:3px;width:0;background:linear-gradient(90deg,var(--pine),var(--gold));z-index:99;transition:width .1s linear}
@@ -184,7 +184,7 @@
   .board{background:#0A120E;border:1px solid #1E352A;border-radius:16px;overflow:hidden;transition:transform .3s ease,border-color .3s ease}
   .board:hover{transform:translateY(-5px);border-color:var(--gold)}
   .board .imgbox{background:#000;overflow:hidden}
-  .board img{width:100%;height:230px;object-fit:cover;transition:transform .5s ease}
+  .board img{width:100%;height:230px;object-fit:contain;transition:transform .5s ease}
   .board:hover img{transform:scale(1.06)}
   .board .meta{padding:16px 18px}
   .board .meta b{font-size:1rem;color:var(--gold);letter-spacing:.06em}
