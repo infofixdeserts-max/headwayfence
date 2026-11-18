@@ -1,450 +1,86 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Headway Ag | Virtual Fencing Ear Tags for Livestock</title>
-<meta name="description" content="Headway Ag builds self-powered twin ear-tag computers for virtual fencing, herd health, and land intelligence. No wire. No posts. Patent pending.">
-<link rel="icon" href="favicon.svg" type="image/svg+xml">
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="Headway Ag">
-<meta property="og:title" content="Headway Ag | Virtual Fencing Ear Tags for Livestock">
-<meta property="og:description" content="Self-powered ear-tag computers that replace barbed wire: virtual fencing, herd health, and land intelligence. No wire. No posts. Patent pending.">
-<meta property="og:url" content="https://headwayfence.com/">
-<meta property="og:image" content="https://headwayfence.com/images/hero.png">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Headway Ag | Virtual Fencing Ear Tags for Livestock">
-<meta name="twitter:description" content="Self-powered ear tags replace barbed wire. Virtual fencing, herd health, and land intelligence in one app. Patent pending.">
-<meta name="twitter:image" content="https://headwayfence.com/images/hero.png">
-<meta name="robots" content="index, follow">
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://gc.zgo.at; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://*.goatcounter.com; font-src 'self'; connect-src 'self' https://abacus.jasoncameron.dev https://gc.zgo.at https://*.goatcounter.com; object-src 'none'; base-uri 'self'; form-action 'none'; frame-src 'none'; manifest-src 'self'; upgrade-insecure-requests">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Headway: virtual fencing ear tags and a free ranch app</title>
+<meta name="description" content="Solar ear tags that hold a virtual fence for cattle, watch every animal and detect lightning, plus a free app for grazing, money and farm tax forms.">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
 <link rel="canonical" href="https://headwayfence.com/">
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "Headway Ag LLC",
-  "url": "https://headwayfence.com/",
-  "logo": "https://headwayfence.com/favicon.svg",
-  "image": "https://headwayfence.com/images/hero.png",
-  "description": "Headway Ag builds self-powered twin ear-tag computers for virtual fencing, herd health monitoring, and land intelligence. Patent pending.",
-  "email": "hughheadwayag@gmail.com",
-  "founder": {"@type": "Person", "name": "Hugh Savory"},
-  "address": {"@type": "PostalAddress", "addressLocality": "Stuart", "addressRegion": "FL", "addressCountry": "US"},
-  "knowsAbout": ["virtual fencing", "ear tags", "livestock monitoring", "agricultural technology"]
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "name": "Headway Ag",
-  "url": "https://headwayfence.com/",
-  "description": "Self-powered twin ear-tag computers that replace physical fences with virtual ones and turn every animal into a living sensor."
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Product",
-  "name": "Headway Ag twin ear-tag computers",
-  "description": "Self-powered twin ear-tag computers that replace physical fences with virtual ones. Draw paddock boundaries from your phone, guide the herd with humane audio cues, and stream health and land data from every animal, day and night.",
-  "brand": {"@type": "Brand", "name": "Headway Ag LLC"},
-  "manufacturer": {"@type": "Organization", "name": "Headway Ag LLC"},
-  "category": "Virtual fencing ear tags",
-  "image": [
-    "https://headwayfence.com/images/hero.png",
-    "https://headwayfence.com/images/front.png",
-    "https://headwayfence.com/images/exploded.png"
-  ],
-  "additionalProperty": [
-    {"@type": "PropertyValue", "name": "Power", "value": "Solar harvesting on the housing face keeps an onboard rechargeable cell topped up"},
-    {"@type": "PropertyValue", "name": "Charging", "value": "No charging, no battery swaps, year after year"},
-    {"@type": "PropertyValue", "name": "Animals", "value": "Cattle, sheep, goats, pigs, horses, and donkeys"}
-  ]
-}
-</script>
-<style>
-  :root{
-    --paper:#F6F4EC;
-    --ink:#17251F;
-    --ink-soft:#52605A;
-    --pine:#17694B;
-    --pine-deep:#0E3B2B;
-    --clay:#C4552F;
-    --gold:#D9A441;
-    --card:#FFFFFF;
-    --line:#E4E0D3;
-    --dark:#0C1712;
-    --shadow:0 12px 34px rgba(23,37,31,.09);
-  }
-  *{margin:0;padding:0;box-sizing:border-box}
-  html{scroll-behavior:smooth}
-  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--paper);color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
-  a{color:var(--pine);text-decoration:none}
-  img{max-width:100%;height:auto;display:block}
-
-  /* scroll progress */
-  #progress{position:fixed;top:0;left:0;height:3px;width:0;background:linear-gradient(90deg,var(--pine),var(--gold));z-index:99;transition:width .1s linear}
-
-  .nav{position:sticky;top:0;z-index:50;background:rgba(246,244,236,.7);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
-  .nav-inner{max-width:1120px;margin:0 auto;padding:14px 24px;display:flex;align-items:center;justify-content:space-between}
-  .brand{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:.03em;color:var(--ink);font-size:1.05rem}
-  .brand .dot{width:12px;height:12px;border-radius:3px;background:linear-gradient(135deg,var(--pine),var(--gold))}
-  .nav-links{display:flex;gap:28px;font-size:.95rem}
-  .nav-links a{color:var(--ink-soft);font-weight:600;position:relative}
-  .nav-links a::after{content:"";position:absolute;left:0;bottom:-4px;width:0;height:2px;background:var(--pine);transition:width .25s ease}
-  .nav-links a:hover::after{width:100%}
-  .nav-links a:hover{color:var(--pine)}
-
-  /* reveal animation */
-  .reveal{opacity:0;transform:translateY(26px);transition:opacity .7s cubic-bezier(.2,.7,.3,1),transform .7s cubic-bezier(.2,.7,.3,1)}
-  .reveal.in{opacity:1;transform:none}
-  .d1{transition-delay:.08s}.d2{transition-delay:.16s}.d3{transition-delay:.24s}.d4{transition-delay:.32s}
-
-  .hero{max-width:1120px;margin:0 auto;padding:92px 24px 64px;display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center}
-  .badge{display:inline-flex;align-items:center;gap:8px;background:#EAF3EC;color:var(--pine-deep);border:1px solid #CDE3D4;font-size:.8rem;font-weight:700;padding:6px 14px;border-radius:999px;margin-bottom:22px}
-  .badge .pulse{width:8px;height:8px;border-radius:50%;background:var(--pine);animation:pulse 2s infinite}
-  @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(23,105,75,.45)}70%{box-shadow:0 0 0 9px rgba(23,105,75,0)}100%{box-shadow:0 0 0 0 rgba(23,105,75,0)}}
-  h1{font-size:clamp(2.2rem,5vw,3.4rem);line-height:1.1;letter-spacing:-.02em;font-weight:800}
-  h1 .accent{color:var(--pine)}
-  .hero p.sub{margin-top:20px;font-size:1.14rem;color:var(--ink-soft);max-width:34rem}
-  .hero-cta{margin-top:32px;display:flex;gap:14px;flex-wrap:wrap}
-  .btn{display:inline-block;padding:13px 26px;border-radius:10px;font-weight:700;font-size:.98rem;transition:transform .2s ease,box-shadow .2s ease}
-  .btn:hover{transform:translateY(-2px)}
-  .btn-primary{background:var(--pine);color:#fff;box-shadow:0 6px 18px rgba(23,105,75,.25)}
-  .btn-primary:hover{background:var(--pine-deep)}
-  .btn-ghost{border:1.5px solid var(--line);color:var(--ink);background:#fff}
-  .btn-ghost:hover{border-color:var(--pine);color:var(--pine)}
-  .hero-visual{border-radius:20px;overflow:hidden;box-shadow:var(--shadow);border:1px solid var(--line);background:#fff}
-  .hero-visual img{width:100%;transform:scale(1);animation:kenburns 14s ease-in-out infinite alternate}
-  @keyframes kenburns{from{transform:scale(1)}to{transform:scale(1.05)}}
-  .hero-visual figcaption{padding:14px;font-size:.83rem;color:var(--ink-soft);text-align:center;background:#fff}
-
-  .stats{max-width:1120px;margin:0 auto;padding:0 24px 76px;display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
-  .stat{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px 24px;text-align:center;transition:transform .25s ease,box-shadow .25s ease}
-  .stat:hover{transform:translateY(-4px);box-shadow:var(--shadow)}
-  .stat b{display:block;font-size:1.9rem;font-weight:800;color:var(--pine-deep)}
-  .stat b span{font-size:inherit;font-weight:inherit;color:inherit}
-  .stat > span{font-size:.9rem;color:var(--ink-soft)}
-
-  /* marquee */
-  .marquee{background:var(--pine-deep);color:#DFF0E5;overflow:hidden;white-space:nowrap;padding:13px 0;border-top:1px solid rgba(255,255,255,.08);border-bottom:1px solid rgba(255,255,255,.08)}
-  .marquee-track{display:inline-block;animation:scroll 38s linear infinite}
-  .marquee:hover .marquee-track{animation-play-state:paused}
-  .marquee span{font-size:.92rem;font-weight:600;letter-spacing:.04em;margin:0 18px}
-  .marquee .sep{color:var(--gold)}
-  @keyframes scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
-
-  section.band{padding:84px 24px}
-  .band-alt{background:#EFEBDD;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-  .wrap{max-width:1120px;margin:0 auto}
-  .kicker{font-size:.8rem;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--clay);margin-bottom:12px}
-  h2{font-size:clamp(1.7rem,3.4vw,2.4rem);letter-spacing:-.015em;font-weight:800;line-height:1.2}
-  .lede{margin-top:16px;font-size:1.08rem;color:var(--ink-soft);max-width:46rem}
-
-  .cards{margin-top:44px;display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
-  .card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:28px 24px;box-shadow:var(--shadow);transition:transform .28s ease,box-shadow .28s ease}
-  .card:hover{transform:translateY(-6px);box-shadow:0 18px 44px rgba(23,37,31,.14)}
-  .card .ico{width:48px;height:48px;border-radius:12px;background:#EAF3EC;display:flex;align-items:center;justify-content:center;margin-bottom:16px}
-  .card .ico svg{width:26px;height:26px;stroke:var(--pine);fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
-  .card.c-storm .ico{background:#FDF3E3}
-  .card.c-storm .ico svg{stroke:var(--gold)}
-  .card h3{font-size:1.08rem;font-weight:800;margin-bottom:8px}
-  .card p{font-size:.92rem;color:var(--ink-soft)}
-  .bolt-anim{animation:bolt 3.2s ease-in-out infinite}
-  @keyframes bolt{0%,88%,100%{opacity:1}92%{opacity:.25}96%{opacity:1}}
-
-  /* senses */
-  .sense-groups{margin-top:44px;display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
-  .sgroup{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:26px;box-shadow:var(--shadow)}
-  .sgroup h3{font-size:.85rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;margin-bottom:16px}
-  .sgroup.g-animal h3{color:var(--pine)}
-  .sgroup.g-land h3{color:var(--gold)}
-  .sgroup.g-threat h3{color:var(--clay)}
-  .chips{display:flex;flex-wrap:wrap;gap:8px}
-  .chip{background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:7px 14px;font-size:.86rem;font-weight:600;color:var(--ink);transition:border-color .2s ease,color .2s ease}
-  .chip:hover{border-color:var(--pine);color:var(--pine)}
-  .allin{margin-top:22px;background:linear-gradient(120deg,var(--pine-deep),var(--pine));color:#EAF6EE;border-radius:16px;padding:20px 26px;font-size:1.02rem;font-weight:600;display:flex;gap:12px;align-items:center}
-  .allin .ico{flex:none;width:38px;height:38px;border-radius:10px;background:rgba(255,255,255,.14);display:flex;align-items:center;justify-content:center}
-  .allin .ico svg{width:22px;height:22px;stroke:var(--gold);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
-
-  /* hardware gallery */
-  .gallery{margin-top:44px;display:grid;grid-template-columns:1.35fr 1fr;gap:20px;align-items:stretch}
-  .shot{background:linear-gradient(165deg,#F3F1E7,#E9E5D6);border:1px solid var(--line);border-radius:18px;padding:24px;box-shadow:var(--shadow);display:flex;flex-direction:column;justify-content:space-between;overflow:hidden}
-  .shot img{border-radius:10px;width:100%;height:270px;object-fit:contain;transition:transform .5s cubic-bezier(.2,.7,.3,1)}
-  .shot:hover img{transform:scale(1.035)}
-  .shot figcaption{margin-top:14px;font-size:.85rem;color:var(--ink-soft);text-align:center}
-
-  /* electronics dark band */
-  .band-dark{background:radial-gradient(1200px 500px at 70% -10%,#123324 0%,var(--dark) 60%);color:#E8F2EA;border-top:1px solid #1E352A;border-bottom:1px solid #1E352A}
-  .band-dark .kicker{color:var(--gold)}
-  .band-dark h2{color:#fff}
-  .band-dark .lede{color:#A9C3B2}
-  .boards{margin-top:44px;display:grid;grid-template-columns:1.25fr 1fr 1fr;gap:18px}
-  .board{background:#0A120E;border:1px solid #1E352A;border-radius:16px;overflow:hidden;transition:transform .3s ease,border-color .3s ease}
-  .board:hover{transform:translateY(-5px);border-color:var(--gold)}
-  .board .imgbox{background:#000;overflow:hidden}
-  .board img{width:100%;height:230px;object-fit:contain;transition:transform .5s ease}
-  .board:hover img{transform:scale(1.06)}
-  .board .meta{padding:16px 18px}
-  .board .meta b{font-size:1rem;color:var(--gold);letter-spacing:.06em}
-  .board .meta p{font-size:.86rem;color:#A9C3B2;margin-top:4px}
-
-  .species{margin-top:36px;display:flex;flex-wrap:wrap;gap:10px}
-
-  .contact{background:var(--pine-deep);color:#EAF3ED;border-radius:24px;padding:56px 48px;display:grid;grid-template-columns:1.2fr .8fr;gap:36px;align-items:center;position:relative;overflow:hidden}
-  .contact::before{content:"";position:absolute;right:-80px;top:-80px;width:280px;height:280px;border-radius:50%;background:radial-gradient(circle,rgba(217,164,65,.18),transparent 70%)}
-  .contact h2{color:#fff}
-  .contact p{color:#C9DCCF;margin-top:14px;font-size:1.05rem}
-  .contact-card{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.16);border-radius:16px;padding:28px;backdrop-filter:blur(8px)}
-  .contact-card .row{display:flex;justify-content:space-between;gap:16px;padding:9px 0;border-bottom:1px solid rgba(255,255,255,.1);font-size:.95rem}
-  .contact-card .row:last-child{border-bottom:none}
-  .contact-card .k{color:#A8C4B2}
-  .contact-card .v{font-weight:700;color:#fff;text-align:right}
-  .contact-card a{color:#8FE6AE}
-
-  footer{max-width:1120px;margin:0 auto;padding:36px 24px 48px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:.85rem;color:var(--ink-soft)}
-
-  @media (prefers-reduced-motion:reduce){
-    .reveal{opacity:1;transform:none;transition:none}
-    .marquee-track,.hero-visual img,.bolt-anim,.badge .pulse{animation:none}
-    html{scroll-behavior:auto}
-  }
-  @media (max-width:980px){
-    .cards{grid-template-columns:repeat(2,1fr)}
-    .boards{grid-template-columns:1fr 1fr}
-    .board:first-child{grid-column:1 / -1}
-  }
-  @media (max-width:880px){
-    .hero{grid-template-columns:1fr;padding-top:56px}
-    .stats{grid-template-columns:1fr}
-    .cards{grid-template-columns:1fr}
-    .sense-groups{grid-template-columns:1fr}
-    .gallery{grid-template-columns:1fr}
-    .boards{grid-template-columns:1fr}
-    .contact{grid-template-columns:1fr;padding:40px 28px}
-    .nav-links{display:none}
-  }
-</style>
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Headway">
+<meta property="og:locale" content="en_US">
+<meta property="og:title" content="Headway: virtual fencing ear tags and a free ranch app">
+<meta property="og:description" content="Solar ear tags that hold a virtual fence for cattle, watch every animal and detect lightning, plus a free app for grazing, money and farm tax forms.">
+<meta property="og:url" content="https://headwayfence.com/">
+<meta property="og:image" content="https://headwayfence.com/img/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Headway: virtual fencing ear tags and a free ranch app">
+<meta name="twitter:description" content="Solar ear tags that hold a virtual fence for cattle, watch every animal and detect lightning, plus a free app for grazing, money and farm tax forms.">
+<meta name="twitter:image" content="https://headwayfence.com/img/og.jpg">
+<meta name="theme-color" content="#FFFFFF">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/brand/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/brand/icon-180.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="preload" href="/fonts/Barlow-Bold.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="stylesheet" href="/site.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://headwayfence.com/#org", "name": "Headway Ag LLC", "alternateName": "Headway", "url": "https://headwayfence.com/", "logo": "https://headwayfence.com/brand/icon-512.png", "email": "hughheadwayag@gmail.com", "description": "Headway Ag LLC builds solar ear tags for virtual fencing of cattle and a free ranch app for grazing, money and farm tax forms.", "address": {"@type": "PostalAddress", "addressLocality": "Stuart", "addressRegion": "FL", "addressCountry": "US"}, "contactPoint": {"@type": "ContactPoint", "contactType": "sales", "email": "hughheadwayag@gmail.com", "areaServed": "US", "availableLanguage": "English"}, "knowsAbout": ["virtual fencing", "cattle", "rotational grazing", "Holistic Management", "livestock ear tags", "ranch management"]}, {"@type": "WebPage", "@id": "https://headwayfence.com/#page", "url": "https://headwayfence.com/", "name": "Headway: virtual fencing ear tags and a free ranch app", "description": "Solar ear tags that hold a virtual fence for cattle, watch every animal and detect lightning, plus a free app for grazing, money and farm tax forms.", "dateModified": "2026-11-18", "inLanguage": "en", "isPartOf": {"@id": "https://headwayfence.com/#site"}, "publisher": {"@id": "https://headwayfence.com/#org"}}, {"@type": "WebSite", "@id": "https://headwayfence.com/#site", "url": "https://headwayfence.com/", "name": "Headway", "publisher": {"@id": "https://headwayfence.com/#org"}, "inLanguage": "en"}]}</script>
 </head>
 <body>
-
-<div id="progress"></div>
-
-<nav class="nav">
-  <div class="nav-inner">
-    <a class="brand" href="#top"><span class="dot"></span>HEADWAY&nbsp;AG</a>
-    <div class="nav-links">
-      <a href="/faq.html">FAQ</a>
-      <a href="#technology">Technology</a>
-      <a href="#senses">Sensing</a>
-      <a href="#hardware">Hardware</a>
-      <a href="#electronics">Electronics</a>
-      <a href="#contact">Contact</a>
-    </div>
-  </div>
-</nav>
-
-<header class="hero" id="top">
-  <div>
-    <span class="badge reveal"><span class="pulse"></span>PATENT PENDING</span>
-    <h1 class="reveal d1">Livestock management,<br><span class="accent">unplugged.</span></h1>
-    <p class="sub reveal d2">Headway Ag builds self-powered twin ear-tag computers that replace physical fences with virtual ones and turn every animal into a living sensor.</p>
-    <div class="hero-cta reveal d3">
-      <a class="btn btn-primary" href="#contact">Get in touch</a>
-      <a class="btn btn-ghost" href="#technology">How it works</a>
-    </div>
-  </div>
-  <figure class="hero-visual reveal d2">
-    <img src="images/hero.png" alt="Headway Ag twin ear-tag modules, left and right, studio render" width="1568" height="672" decoding="async">
-    <figcaption>Twin ear-tag computer modules, left and right</figcaption>
-  </figure>
-</header>
-
-<div class="stats">
-  <div class="stat reveal"><b>0</b><span>wire, posts, or fences required</span></div>
-  <div class="stat reveal d1"><b>Solar</b><span>power source: no charging, no battery swaps</span></div>
-  <div class="stat reveal d2"><b><span data-count="24">0</span>/7</b><span>health, location and behavior monitoring</span></div>
-</div>
-
-<div class="marquee" aria-hidden="true">
-  <div class="marquee-track">
-    <span>Heart rate</span><span class="sep">•</span><span>Body temperature</span><span class="sep">•</span><span>GPS location</span><span class="sep">•</span><span>Rumination</span><span class="sep">•</span><span>Pregnancy</span><span class="sep">•</span><span>Calving alerts</span><span class="sep">•</span><span>Weight trends</span><span class="sep">•</span><span>Wolf activity</span><span class="sep">•</span><span>Stress signals</span><span class="sep">•</span><span>Grass growth</span><span class="sep">•</span><span>Forage classification</span><span class="sep">•</span><span>Pasture biomass</span><span class="sep">•</span><span>Lightning strikes</span><span class="sep">•</span><span>Fire heat</span><span class="sep">•</span><span>Humidity</span><span class="sep">•</span><span>Herd density</span><span class="sep">•</span>
-    <span>Heart rate</span><span class="sep">•</span><span>Body temperature</span><span class="sep">•</span><span>GPS location</span><span class="sep">•</span><span>Rumination</span><span class="sep">•</span><span>Pregnancy</span><span class="sep">•</span><span>Calving alerts</span><span class="sep">•</span><span>Weight trends</span><span class="sep">•</span><span>Wolf activity</span><span class="sep">•</span><span>Stress signals</span><span class="sep">•</span><span>Grass growth</span><span class="sep">•</span><span>Forage classification</span><span class="sep">•</span><span>Pasture biomass</span><span class="sep">•</span><span>Lightning strikes</span><span class="sep">•</span><span>Fire heat</span><span class="sep">•</span><span>Humidity</span><span class="sep">•</span><span>Herd density</span><span class="sep">•</span>
-  </div>
-</div>
-
-<section class="band band-alt" id="technology">
-  <div class="wrap">
-    <div class="kicker reveal">The Technology</div>
-    <h2 class="reveal d1">Know every animal, every minute.</h2>
-    <p class="lede reveal d2">Headway replaces barbed wire with a self-powered ear-tag platform. Draw paddock boundaries from your phone, guide the herd with humane audio cues, and stream health and land data from every animal, day and night. One system for the whole operation.</p>
-    <div class="cards">
-      <div class="card reveal">
-        <div class="ico"><svg viewBox="0 0 24 24"><path d="M12 21s-7-5.5-7-11a7 7 0 0 1 14 0c0 5.5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></div>
-        <h3>Virtual Fencing</h3>
-        <p>Draw paddock boundaries in a mobile app and move the herd remotely. Rotation, laneways, and fire breaks without a single post in the ground.</p>
-      </div>
-      <div class="card reveal d1">
-        <div class="ico"><svg viewBox="0 0 24 24"><path d="M13 2 4 14h6l-1 8 9-12h-6l1-8z"/></svg></div>
-        <h3>Self-Powered</h3>
-        <p>Solar harvesting on the housing face keeps an onboard rechargeable cell topped up. No charging, no battery swaps, year after year.</p>
-      </div>
-      <div class="card reveal d2">
-        <div class="ico"><svg viewBox="0 0 24 24"><path d="M3 12h4l3-8 4 16 3-8h4"/></svg></div>
-        <h3>Herd Intelligence</h3>
-        <p>Temperature, location, and behavior stream from every animal over mesh, cellular, and satellite links into one live picture.</p>
-      </div>
-      <div class="card c-storm reveal d3">
-        <div class="ico"><svg class="bolt-anim" viewBox="0 0 24 24"><path d="M12 2 5 13h5l-1 9 8-12h-5l1-8z"/></svg></div>
-        <h3>Storm Sense</h3>
-        <p>Onboard sensors detect lightning strikes and brush-fire heat locally, warning the herd and the rancher before regional alerts arrive.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="band" id="senses">
-  <div class="wrap">
-    <div class="kicker reveal">What It Senses</div>
-    <h2 class="reveal d1">A thousand data points per animal.</h2>
-    <p class="lede reveal d2">Every tag watches the animal, the land, and the sky at the same time, then feeds one shared picture to your phone, tablet, or desktop.</p>
-    <div class="sense-groups">
-      <div class="sgroup g-animal reveal">
-        <h3>The Animal</h3>
-        <div class="chips">
-          <span class="chip">Heart rate</span><span class="chip">Body temperature</span><span class="chip">Rumination time</span><span class="chip">Movement patterns</span><span class="chip">Pregnancy</span><span class="chip">Estrus cycles</span><span class="chip">Calving alerts</span><span class="chip">Weight trends</span><span class="chip">Stress levels</span>
-        </div>
-      </div>
-      <div class="sgroup g-land reveal d1">
-        <h3>The Land</h3>
-        <div class="chips">
-          <span class="chip">Grass growth</span><span class="chip">Forage classification</span><span class="chip">Pasture biomass</span><span class="chip">Humidity</span><span class="chip">Ambient temperature</span><span class="chip">Herd density</span><span class="chip">Plant recovery</span><span class="chip">Water points</span>
-        </div>
-      </div>
-      <div class="sgroup g-threat reveal d2">
-        <h3>The Threats</h3>
-        <div class="chips">
-          <span class="chip">Wolf activity</span><span class="chip">Predation events</span><span class="chip">Lightning strikes</span><span class="chip">Brush-fire heat</span><span class="chip">Theft movement</span><span class="chip">Parasite cycles</span><span class="chip">System faults</span>
-        </div>
-      </div>
-    </div>
-    <div class="allin reveal">
-      <div class="ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></div>
-      One system for everything: fencing, health, breeding, land, weather, and security in a single app.
-    </div>
-  </div>
-</section>
-
-<section class="band band-alt" id="hardware">
-  <div class="wrap">
-    <div class="kicker reveal">The Hardware</div>
-    <h2 class="reveal d1">From CAD to pasture.</h2>
-    <p class="lede reveal d2">A lightweight, weatherproof polymer twin-tag system: an identification disk facing forward, a computing housing behind the ear.</p>
-    <div class="gallery">
-      <figure class="shot reveal">
-        <img src="images/front.png" alt="Front-of-ear identification disks with speaker openings, left green and right red" width="1067" height="430" loading="lazy" decoding="async">
-        <figcaption>Front-of-ear disk: visual number ID and speaker, left and right units</figcaption>
-      </figure>
-      <figure class="shot reveal d1">
-        <img src="images/exploded.png" alt="Exploded view of ear tag housings with solar panel faces" width="1184" height="880" loading="lazy" decoding="async">
-        <figcaption>Rear housing with solar harvesting face, exploded view</figcaption>
-      </figure>
-    </div>
-    <div class="species reveal">
-      <span class="chip">Cattle</span><span class="chip">Sheep</span><span class="chip">Goats</span><span class="chip">Pigs</span><span class="chip">Horses</span><span class="chip">Donkeys</span>
-    </div>
-  </div>
-</section>
-
-<section class="band band-dark" id="electronics">
-  <div class="wrap">
-    <div class="kicker reveal">The Electronics</div>
-    <h2 class="reveal d1">Designed board by board.</h2>
-    <p class="lede reveal d2">Every module is drawn, routed, and revised in-house in KiCad. These are the working G1 platform boards.</p>
-    <div class="boards">
-      <div class="board reveal">
-        <div class="imgbox"><img src="images/g1_board.png" alt="G1 main comms and power board render" width="1568" height="984" loading="lazy" decoding="async"></div>
-        <div class="meta"><b>G1</b><p>Main comms board: cellular, satellite, and mesh radio with power regulation and the high-voltage cue driver.</p></div>
-      </div>
-      <div class="board reveal d1">
-        <div class="imgbox"><img src="images/l1_board.png" alt="L1 left ear tag prototype board render" width="1568" height="984" loading="lazy" decoding="async"></div>
-        <div class="meta"><b>L1</b><p>Left-ear prototype: sensing, ID, and audio cue hardware.</p></div>
-      </div>
-      <div class="board reveal d2">
-        <div class="imgbox"><img src="images/r1_board.png" alt="R1 right ear tag prototype board render" width="720" height="800" loading="lazy" decoding="async"></div>
-        <div class="meta"><b>R1</b><p>Right-ear prototype: sensing, ID, and audio cue hardware.</p></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="band">
-  <div class="wrap">
-    <div class="contact reveal" id="contact">
-      <div>
-        <h2>Follow the herd.</h2>
-        <p>Headway Ag is in stealth development in Stuart, Florida. For partnership and pilot inquiries, reach out directly.</p>
-      </div>
-      <div class="contact-card">
-        <div class="row"><span class="k">Company</span><span class="v">Headway Ag LLC</span></div>
-        <div class="row"><span class="k">Contact</span><span class="v">Hugh Savory, Founder and CEO</span></div>
-        <div class="row"><span class="k">Email</span><span class="v"><a href="mailto:hughheadwayag@gmail.com">hughheadwayag@gmail.com</a></span></div>
-        <div class="row"><span class="k">Location</span><span class="v">Stuart, Florida</span></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<footer>
-  <span>© 2026 Headway Ag LLC · Stuart, Florida</span>
-  <nav aria-label="Footer">
-    <a href="/">Headway Ag home</a> ·
-    <a href="/faq.html">Virtual fencing FAQ</a> ·
-    <a href="/privacy.html">Privacy and cookie choice</a> ·
-    <a href="mailto:hughheadwayag@gmail.com">Contact by email</a>
+<a class="skip" href="#main">Skip to the page</a>
+<div class="preview">Headway tags are in testing and not for sale yet. The app is in development.</div>
+<header class="top"><div class="wrap">
+  <a class="logo" href="/"><img src="/brand/logo-horizontal.svg" alt="Headway home" width="253" height="48"></a>
+  <nav class="menu" aria-label="Site">
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu-panel"><span class="bars" aria-hidden="true"></span>Menu</button>
+    <div class="menu-panel" id="menu-panel" hidden><ul class="tree"><li><a class="top" href="/" aria-current="page">Home</a></li><li><details open><summary>Virtual fencing</summary><ul><li><a href="/virtual-fencing/">How the line works</a></li><li><a href="/virtual-fencing/breaks.html">Breaks and strip grazing</a></li><li><a href="/virtual-fencing/keep-out-zones.html">Keep-out zones</a></li><li><a href="/virtual-fencing/welfare.html">Animal welfare</a></li><li><a href="/virtual-fencing/choosing.html">How to choose a virtual fence</a></li></ul></details></li><li><details open><summary>The ear tag</summary><ul><li><a href="/ear-tag/">What it keeps track of</a></li><li><a href="/ear-tag/lightning.html">Lightning detection</a></li><li><a href="/ear-tag/solar.html">Solar power</a></li><li><a href="/ear-tag/coverage.html">Places with no signal</a></li></ul></details></li><li><details open><summary>The free app</summary><ul><li><a href="/software/">Live map</a></li><li><a href="/software/grazing.html">Auto grazing and planner</a></li><li><a href="/software/money.html">Money and cash flow</a></li><li><a href="/software/tax.html">Farm tax forms</a></li><li><a href="/software/license.html">Free, and licensed</a></li></ul></details></li><li><details open><summary>Company</summary><ul><li><a href="/about.html">About Headway</a></li><li><a href="/contact.html">Contact</a></li><li><a href="/pilot.html">Join the pilot</a></li><li><a href="/faq.html">Questions</a></li><li><a href="/privacy.html">Privacy</a></li></ul></details></li></ul></div>
   </nav>
-  <span>Patent pending</span>
-  <span style="display:flex;gap:10px;align-items:center">
-    <a href="https://twitter.com/intent/tweet?text=Self-powered%20ear%20tags%20that%20replace%20barbed%20wire%3A%20virtual%20fencing%2C%20herd%20health%2C%20land%20intelligence&url=https%3A%2F%2Fheadwayfence.com%2F" target="_blank" rel="noopener" aria-label="Share on X">Share on X</a> ·
-    <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fheadwayfence.com%2F" target="_blank" rel="noopener" aria-label="Share on LinkedIn">LinkedIn</a> ·
-    <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fheadwayfence.com%2F" target="_blank" rel="noopener" aria-label="Share on Facebook">Facebook</a>
-  </span>
-</footer>
+  <a class="btn line hide-s" href="/contact.html">Contact</a>
+  <a class="btn go" href="/pilot.html">Join the pilot</a>
+</div></header>
 
-<script>
-  // scroll progress
-  const bar = document.getElementById('progress');
-  addEventListener('scroll', () => {
-    const h = document.documentElement;
-    bar.style.width = (h.scrollTop / (h.scrollHeight - h.clientHeight) * 100) + '%';
-  }, {passive:true});
+<main id="main">
 
-  // reveal on scroll
-  const io = new IntersectionObserver(es => {
-    es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
-  }, {threshold:.12});
-  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
-
-  // count-up numbers
-  const cio = new IntersectionObserver(es => {
-    es.forEach(e => {
-      if (!e.isIntersecting) return;
-      const el = e.target, target = +el.dataset.count, t0 = performance.now();
-      const tick = now => {
-        const p = Math.min((now - t0) / 1200, 1);
-        el.textContent = Math.round(target * (1 - Math.pow(1 - p, 3)));
-        if (p < 1) requestAnimationFrame(tick);
-      };
-      requestAnimationFrame(tick);
-      cio.unobserve(el);
-    });
-  }, {threshold:.5});
-  document.querySelectorAll('[data-count]').forEach(el => cio.observe(el));
-</script>
-
-<script>window.SEO_OPS={ns:"headwayfence.com",goatcounter:"https://headwayfence.goatcounter.com/count",privacy:"/privacy.html",brand:"#17694B"};</script>
-<script src="/assets/seo.js" defer></script>
-
+<section class="hero"><div class="wrap">
+  <div><h1>Virtual fencing for cattle, and the whole ranch in one free app.</h1>
+    <p class="lede">Solar ear tags hold the paddock line, watch every animal and listen for lightning. The free Headway app plans the grazing, moves the herd on schedule, keeps the books and fills in your farm tax forms.</p>
+    <div class="row"><a class="btn go big" href="/pilot.html">Join the pilot</a><a class="btn line big" href="/virtual-fencing/">How the line works</a></div></div>
+  <figure class="stage"><svg viewBox="0 0 560 380" role="img" aria-label="A paddock with a dashed virtual fence line. One cow walks toward the line, hears the tone and turns back.">
+  <rect width="560" height="380" fill="#F1F3E6"/>
+  <path d="M0 300 C120 280 220 296 320 286 S480 270 560 282 V380 H0Z" fill="#E3E8CF"/>
+  <path class="fence" d="M60 70 L380 52 L420 300 L80 330 Z"/>
+  <path class="fence2" d="M380 52 L520 60 L540 300 L420 300"/>
+  <g id="herd"></g>
+  <circle id="cue" class="cue" r="0" cx="0" cy="0" opacity="0"/>
+</svg><figcaption id="cap">The line is drawn in the app and sent to every tag.</figcaption></figure>
+</div></section>
+<div class="wrap"><div class="strip">
+  <div><b>Free</b><span>app for every rancher, money and tax tools included</span></div>
+  <div><b>3 taps</b><span>or fewer for every everyday job in the app</span></div>
+  <div><b>Ear tag</b><span>no neck collar, no strap to catch on a fence</span></div>
+  <div><b>Sun</b><span>charges every tag, every day, right on the ear</span></div>
+</div></div>
+<section><div class="wrap"><div class="split"><div><h2 class="reveal">Meet the Headway ear tag.</h2><p class="lede reveal">A pair of tags, one on each side of the ear. Solar on top and sealed for life outside. It plays the tone, finds the herd and hears the weather.</p><p class="reveal"><a href="/ear-tag/">What the tag keeps track of</a></p></div><figure class="render reveal"><img src="/img/tag/tag-pair.jpg" alt="Two Headway solar ear tags, one gray and one red-brown, on a plain background." width="1600" height="874" loading="lazy" decoding="async"><figcaption>Headway ear tag, design render.</figcaption></figure></div></div></section>
+<section class="rule"><div class="wrap"><h2 class="reveal">Built for PC and tablet. Works on your phone too.</h2><p class="lede reveal">The big map and the planner are made for a screen you can actually see. Your phone does the quick jobs out in the paddock.</p><figure class="shot wide reveal"><img src="/img/app/app-map.png" alt="The Headway app on a computer: a ranch map with paddocks, breaks, keep-out zones and every animal, with buttons to move a mob, make breaks, pause tags and drop pins." width="1440" height="961" loading="lazy" decoding="async"><figcaption>The app is in development. Screens show demo data.</figcaption></figure></div></section>
+<section class="rule"><div class="wrap"><h2 class="reveal">Everything a virtual fence should do, and the rest of the ranch too.</h2><p class="lede reveal">We listened to what ranchers want from virtual fencing, kept what works, and added the parts of ranching most systems leave out: lightning, money and tax.</p><div class="includes"><div class="reveal"><h3>Live map of every animal</h3><p>GPS position of each animal on a farm map, live, mob by mob.</p></div><div class="reveal"><h3>Virtual fences and breaks</h3><p>Draw a paddock or a strip break on the map, or make them from a template.</p></div><div class="reveal"><h3>Move mobs from the app</h3><p>Shift a mob to the next break from your chair. The line goes to every tag.</p></div><div class="reveal"><h3>Auto grazing</h3><p>The grazing plan is stored on every tag, so moves happen on time even with no signal.</p></div><div class="reveal"><h3>Keep-out zones</h3><p>Keep cattle out of a creek, the house yard or a pivot tower inside a paddock.</p></div><div class="reveal"><h3>Pause tags</h3><p>Turn cues off for a mob while you feed in the yard or work them through the pens.</p></div><div class="reveal"><h3>Lightning detection</h3><p>Each tag hears lightning and tells you how far away it is and if it is getting closer.</p></div><div class="reveal"><h3>No movement alerts</h3><p>An animal that has not moved, or stands apart from the herd, goes to the top of your list.</p></div><div class="reveal"><h3>Theft alerts</h3><p>An animal moving at truck speed sends an alert straight away.</p></div><div class="reveal"><h3>Map pins for jobs</h3><p>Drop a pin on a broken gate or a weed patch and it lands on today's job list.</p></div><div class="reveal"><h3>Replay tracks</h3><p>See where a cow has been over the last 7 days. Handy for finding a new calf.</p></div><div class="reveal"><h3>Heat and rest maps</h3><p>See how hard each part of a paddock was grazed, and how long it has rested.</p></div><div class="reveal"><h3>Season grazing planner</h3><p>Plan which mob grazes where and when. The tags fill in what really happened.</p></div><div class="reveal"><h3>Feed demand and stocking rate</h3><p>Animal units, feed per head per day and grazing days left in each break.</p></div><div class="reveal"><h3>Pasture observations</h3><p>Notes and cover per paddock, kept as a history you can use.</p></div><div class="reveal"><h3>Behaviour trends</h3><p>Hours spent grazing, resting and walking, day by day, from how each animal moves.</p></div><div class="reveal"><h3>Money and cash flow</h3><p>Plan the year, then see what really happens, month by month.</p></div><div class="reveal"><h3>Farm tax forms</h3><p>Filled in as you go, for 12 countries plus a plain pack for anywhere else.</p></div></div></div></section>
+<section class="rule"><div class="wrap"><div class="split"><div><h2 class="reveal">People, money and land, planned together.</h2><p class="lede reveal">Headway is built on Holistic Management. The app looks at your people, your money and your land at the same time, and checks every plan against what you are trying to do.</p><ul class="ticks reveal"><li>Today screen: the worst problem first, nothing you do not need.</li><li>Rest days protected for you and your crew.</li><li>Grazing that leaves the ground better every year.</li></ul></div><figure class="photo reveal"><img src="/img/photos/pasture-herd.jpg" alt="A herd of black Angus beef cattle with yellow ear tags grazing on bright green pasture." width="1600" height="1058" loading="lazy" decoding="async"><figcaption>Photo: <a href="https://commons.wikimedia.org/wiki/File:K4148-10_(8433751040).jpg" rel="noopener">USDAgov</a>, <a href="https://creativecommons.org/publicdomain/mark/1.0/" rel="noopener license">Public domain</a>, resized</figcaption></figure></div></div></section>
+<section class="rule"><div class="wrap"><h2 class="reveal">Headway at a glance</h2><table class="facts"><tr><th>Company</th><td>Headway Ag LLC, Stuart, Florida, USA</td></tr><tr><th>Product</th><td>Solar ear tags for virtual fencing of cattle, and a free ranch app</td></tr><tr><th>Livestock</th><td>Cattle, beef and dairy</td></tr><tr><th>Worn as</th><td>An ear tag, not a neck collar</td></tr><tr><th>Power</th><td>Solar, charged every day on the ear</td></tr><tr><th>Cue</th><td>Sound first. A mild stimulus only as the last step, with hard limits</td></tr><tr><th>Also does</th><td>Lightning detection, theft alerts, no movement alerts, 7 day track replay</td></tr><tr><th>App</th><td>Live map, grazing planner, herd records, money and farm tax forms. Free</td></tr><tr><th>Status</th><td>Tags in testing. Pilot on Florida ranches first. Patent pending</td></tr><tr><th>Contact</th><td>hughheadwayag@gmail.com</td></tr></table></div></section>
+<section class="rule"><div class="wrap"><div class="cta"><div><h2>Want Headway on your place?</h2><p>Pilot tags go to Florida ranches first. Tell us about your herd and your ground.</p></div><div class="row"><a class="btn go big" href="/pilot.html">Join the pilot</a><a class="btn line big" href="/contact.html">Contact us</a></div></div></div></section>
+</main>
+<footer><div class="wrap">
+  <div class="fcol"><img src="/brand/logo-horizontal.svg" alt="Headway logo" width="215" height="41" loading="lazy">
+    <p>Headway Ag LLC<br>Stuart, Florida, USA</p>
+    <p>Email: <a href="mailto:hughheadwayag@gmail.com">hughheadwayag@gmail.com</a></p>
+    <p>Patent pending.</p>
+    <p class="small">The Headway app will be free to use under the <a href="/software/license.html">Headway Free Use License</a>. <a href="/privacy.html">Privacy and cookie choice</a>.</p></div>
+  <div class="fcol"><b>Site map</b><ul class="tree flat"><li><a class="top" href="/" aria-current="page">Home</a></li><li><details open><summary>Virtual fencing</summary><ul><li><a href="/virtual-fencing/">How the line works</a></li><li><a href="/virtual-fencing/breaks.html">Breaks and strip grazing</a></li><li><a href="/virtual-fencing/keep-out-zones.html">Keep-out zones</a></li><li><a href="/virtual-fencing/welfare.html">Animal welfare</a></li><li><a href="/virtual-fencing/choosing.html">How to choose a virtual fence</a></li></ul></details></li><li><details open><summary>The ear tag</summary><ul><li><a href="/ear-tag/">What it keeps track of</a></li><li><a href="/ear-tag/lightning.html">Lightning detection</a></li><li><a href="/ear-tag/solar.html">Solar power</a></li><li><a href="/ear-tag/coverage.html">Places with no signal</a></li></ul></details></li><li><details open><summary>The free app</summary><ul><li><a href="/software/">Live map</a></li><li><a href="/software/grazing.html">Auto grazing and planner</a></li><li><a href="/software/money.html">Money and cash flow</a></li><li><a href="/software/tax.html">Farm tax forms</a></li><li><a href="/software/license.html">Free, and licensed</a></li></ul></details></li><li><details open><summary>Company</summary><ul><li><a href="/about.html">About Headway</a></li><li><a href="/contact.html">Contact</a></li><li><a href="/pilot.html">Join the pilot</a></li><li><a href="/faq.html">Questions</a></li><li><a href="/privacy.html">Privacy</a></li></ul></details></li></ul></div>
+</div></footer>
+<script src="/assets/site.js" defer></script>
+<script src="/assets/hero.js" defer></script><script src="/assets/seo.js" defer></script>
 </body>
 </html>
