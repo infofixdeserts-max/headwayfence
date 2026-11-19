@@ -10,7 +10,8 @@
 - Worn as: An ear tag, not a neck collar
 - Power: Solar, charged every day on the ear
 - Cue: Sound first. A mild stimulus only as the last step, with hard limits
-- Also does: Lightning detection, theft alerts, no movement alerts, 7 day track replay
+- Also does: Guiding and splitting the herd, automatic weighing, lightning detection, theft and no movement alerts, 7 day track replay
+- Records: Tagged at birth, full life history, health and genetics, read in the field by phone tap
 - App: Live map, grazing planner, herd records, money and farm tax forms. Free
 - Status: Tags in testing. Pilot on Florida ranches first. Patent pending
 - Contact: hughheadwayag@gmail.com
@@ -24,12 +25,15 @@
 - [How virtual fencing for cattle works | Headway](https://headwayfence.com/virtual-fencing/): Draw a virtual fence on a map, send it to solar ear tags, and cattle learn the line from a tone. Breaks, keep-out zones and strip grazing, explained.
 - [Strip grazing and breaks with virtual fencing | Headway](https://headwayfence.com/virtual-fencing/breaks.html): Make grazing breaks from templates, see feed per head and grazing days, and move cattle between breaks from the Headway app with no temporary fence.
 - [Keep-out zones for cattle: creeks, yards, pivots | Headway](https://headwayfence.com/virtual-fencing/keep-out-zones.html): Draw keep-out zones inside a paddock to keep cattle off creek banks, the house yard and pivot towers with a virtual fence instead of posts and wire.
+- [Guide, split and move cattle with virtual fencing | Headway](https://headwayfence.com/virtual-fencing/herding.html): Walk a mob down a moving virtual lane to new ground, split calves or steers into their own mob, and move cattle on a schedule from the Headway app.
 - [Virtual fencing and animal welfare | Headway](https://headwayfence.com/virtual-fencing/welfare.html): Headway tags use sound first and a mild stimulus only as a last step, with hard limits, no cues while running or walking back, and alerts instead.
 - [How to choose a virtual fence for cattle | Headway](https://headwayfence.com/virtual-fencing/choosing.html): Questions to ask any virtual fencing company before you buy: cost per head, cloudy weather, no signal, keep-out zones, welfare, and how Headway answers.
 
 ## The ear tag
 
 - [Solar cattle ear tag: GPS, behaviour, alerts | Headway](https://headwayfence.com/ear-tag/): A solar ear tag for cattle that tracks GPS position, grazing and resting, animals off the herd, theft and lightning, with no neck collar to catch on a fence.
+- [Automatic cattle weighing on a schedule | Headway](https://headwayfence.com/ear-tag/weighing.html): Weigh cattle automatically: the herd is guided through a walk-over scale lane to water on the days you pick, and every weight lands on that animal's record.
+- [Tap a tag: cattle records in the field | Headway](https://headwayfence.com/ear-tag/tap-a-tag.html): Hold a phone to a Headway ear tag to open that animal's record in the field, even with no signal. Vets see treatments, withdrawal dates and history.
 - [Lightning detection for cattle | Headway ear tags](https://headwayfence.com/ear-tag/lightning.html): Headway ear tags detect lightning near the herd, tell you how far away it is and if it is getting closer, and let you move cattle to safer ground in one tap.
 - [Solar powered ear tag for cattle | Headway](https://headwayfence.com/ear-tag/solar.html): Headway ear tags are charged by the sun every day, sealed for outdoor life, and look after their own battery so the virtual fence holds in cloudy weather.
 - [Virtual fencing with no cell signal | Headway](https://headwayfence.com/ear-tag/coverage.html): How Headway works in ranch dead spots: grazing plans stored on every tag, a low-data app mode, and a herd link and yard base station in development.
@@ -38,6 +42,7 @@
 
 - [Free ranch management app with a live map | Headway](https://headwayfence.com/software/): A free ranch app with a live GPS map of every animal, virtual fence breaks, mob moves, heat and rest maps, herd records, money and farm tax forms.
 - [Auto grazing and seasonal grazing planner | Headway](https://headwayfence.com/software/grazing.html): Plan which mob grazes where and when, move the herd automatically on schedule, and compare the plan to actual grazing with stocking rate and feed demand.
+- [Cattle health, genetics and lifetime records | Headway](https://headwayfence.com/software/records.html): Tag calves at birth and keep each animal's full history in the free Headway app: weights, dam and sire, genetics, vaccines, treatments and withdrawal dates.
 - [Free ranch cash flow and financial planning | Headway](https://headwayfence.com/software/money.html): Free holistic financial planning for ranches: a monthly cash plan against actuals, expenses in 3 taps, and every entry ready for your farm tax form.
 - [Farm tax forms filled in for 12 countries | Headway](https://headwayfence.com/software/tax.html): The free Headway app fills in farm tax forms as you go: Schedule F, T2042, SA103F, IR3F, P8 and more, plus a plain income and expense pack anywhere.
 - [Free ranch software, licensed by Headway Ag LLC](https://headwayfence.com/software/license.html): The Headway ranch app will be free to use under the Headway Free Use License. Headway Ag LLC owns the software, and your farm data stays yours.
