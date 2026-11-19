@@ -9,6 +9,7 @@
 - Worn as: An ear tag, not a collar
 - Power: Charged by the sun. Built to last 15 years
 - Fence: Sound first. A stimulus only as a last step
+- Health: Heart rate, temperature, blood oxygen and movement on every animal
 - Also does: Moves, splits and guides the herd. Lightning and problem alerts. Weight records with a walk-over scale
 - App: Map, grazing, herd records, money and tax. No subscription
 - Status: Tags in testing. Patent pending
@@ -53,6 +54,10 @@ Pause
 Turn the fence off for a mob while you feed or work them.
 Lightning alerts
 Know when a storm is close to the herd, and move them in one tap.
+Health monitoring
+Heart rate, temperature and more on every animal, so you see trouble before it shows.
+Save time
+One list of today's jobs. Moves, weigh days and reminders run on their own.
 Problem alerts
 Animals that stop moving, wander off alone or leave the place show up first.
 Your own alerts
@@ -79,12 +84,20 @@ Today screen: the most urgent job first.
 Rest days for you and your crew.
 Grazing that leaves the land better every year.
 Photo: USDAgov , Public domain , resized
+Give you back your time.
+No fence to build or move. The herd moves on its own. You get one short list of what needs you today.
+Today's jobs, most urgent first.
+Reminders for vaccines, weigh days and calving.
+Plan the week for you and your crew.
+How Headway saves time
+The app is in development. Screens show demo data.
 Headway at a glance
 Product Three solar ear tags that hold a virtual fence, and one app for the whole place
 Livestock All livestock
 Worn as An ear tag, not a collar
 Power Charged by the sun. Built to last 15 years
 Fence Sound first. A stimulus only as a last step
+Health Heart rate, temperature, blood oxygen and movement on every animal
 Also does Moves, splits and guides the herd. Lightning and problem alerts. Weight records with a walk-over scale
 App Map, grazing, herd records, money and tax. No subscription
 Status Tags in testing. Patent pending
@@ -233,7 +246,7 @@ An ear tag, not a collar.
 It goes in the ear like the tags you already use. No neck strap to stretch, snap or catch on a fence.
 Three tags, one herd
 Herd tag
-Goes on every animal. Holds the fence and watches how each animal is doing.
+Goes on every animal. Holds the fence and watches heart rate, temperature and movement.
 Lead tag
 Goes in the other ear of a few animals. Finds the herd on the map, sends news to your app and hears lightning.
 Camera tag
@@ -241,7 +254,9 @@ Goes in the other ear of a few animals. Sends pictures from the herd.
 Where they are
 Every animal on your map.
 How they are doing
-Grazing, resting and walking, day by day.
+Heart rate, temperature and blood oxygen, plus grazing, resting and walking.
+Heat stress
+Know when the herd is getting too hot.
 Off on its own
 An animal standing apart often means calving, sick or hurt.
 Not moving
@@ -450,6 +465,7 @@ Livestock All livestock
 Worn as An ear tag, not a collar
 Power Charged by the sun. Built to last 15 years
 Fence Sound first. A stimulus only as a last step
+Health Heart rate, temperature, blood oxygen and movement on every animal
 Also does Moves, splits and guides the herd. Lightning and problem alerts. Weight records with a walk-over scale
 App Map, grazing, herd records, money and tax. No subscription
 Status Tags in testing. Patent pending
@@ -510,6 +526,10 @@ Which tag goes on which animal?
 The herd tag goes on every animal. A few animals in each herd also wear a lead tag or a camera tag in the other ear.
 When does an animal get its tag?
 Its record starts the day it is born, linked to its mother. The Headway tag goes on at weaning, when the ear is big enough.
+Can it tell if an animal is sick?
+The herd tag tracks heart rate, temperature, blood oxygen and how the animal moves. When one of them drifts from that animal's normal, you get an alert, often before you could see it.
+How does it save me time?
+No fence to build or move, moves that happen on their own, and one list of today's jobs with the most urgent first.
 Does the tag weigh animals?
 No. It works with a walk-over scale, so each weight saves to the right animal on its own.
 Can a vet see records in the field?
@@ -602,6 +622,61 @@ Works with no signal for the basics, like the last treatment.
 Add a treatment right there.
 Photo: BLM Oregon & Washington , Public domain , resized
 The app is in development. Screens show demo data.
+Want Headway on your place?
+Our first ranches are already lined up. Tell us about yours.
+Get in touch Questions
+
+## Heart rate and temperature on every animal | Headway
+
+URL: https://headwayfence.com/ear-tag/health.html
+
+Heart rate and temperature on every animal | Headway
+Skip to the page
+Health monitoring
+The herd tag watches every animal, day and night. You hear about it when something changes.
+Heart rate
+A heart rate that climbs or drops from that animal's normal is often the first sign of trouble.
+Temperature
+Spot a fever early, before the animal goes off its feed.
+Blood oxygen
+Another early sign when an animal is not right.
+Movement
+Grazing, resting and walking each day. Less grazing or more lying down shows up fast.
+Heat stress
+The tag feels the heat and humidity around the herd, and warns you before it gets dangerous.
+Your own alerts
+Set alerts for what matters to you, like a cow going off alone to calve.
+Catch it early
+Each animal has its own normal. Headway learns it, and tells you when that animal drifts from it. You check the one that needs you, not the whole herd.
+Every reading goes on the animal's record, ready for your vet.
+Photo: USDAgov , Public domain , resized
+Want Headway on your place?
+Our first ranches are already lined up. Tell us about yours.
+Get in touch Questions
+
+## Save time on the ranch: jobs, reminders, auto moves
+
+URL: https://headwayfence.com/software/time.html
+
+Save time on the ranch: jobs, reminders, auto moves
+Skip to the page
+Save time
+Headway takes the routine off your plate, so your time goes where it matters.
+No fence work
+Draw a fence in the app instead of building it. Move it in one tap.
+Moves on their own
+Plan the season once. The herd moves on time, without you.
+One list for today
+The most urgent jobs first. Nothing you do not need.
+Reminders
+Vaccines due, weigh days, calving and withdrawal dates, all on time.
+Fewer checks
+See the herd, the water and the fence from your chair, and drive out only when something needs you.
+Plan the week
+Give each job to a person and a day, and keep rest days for you and your crew.
+The app is in development. Screens show demo data.
+Built on Holistic Management
+Your time, your money and your land are planned together. Every job is checked against what you want your life and your place to look like.
 Want Headway on your place?
 Our first ranches are already lined up. Tell us about yours.
 Get in touch Questions

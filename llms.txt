@@ -9,6 +9,7 @@
 - Worn as: An ear tag, not a collar
 - Power: Charged by the sun. Built to last 15 years
 - Fence: Sound first. A stimulus only as a last step
+- Health: Heart rate, temperature, blood oxygen and movement on every animal
 - Also does: Moves, splits and guides the herd. Lightning and problem alerts. Weight records with a walk-over scale
 - App: Map, grazing, herd records, money and tax. No subscription
 - Status: Tags in testing. Patent pending
@@ -30,6 +31,7 @@
 ## The ear tag
 
 - [Solar livestock ear tag for virtual fencing | Headway](https://headwayfence.com/ear-tag/): A solar ear tag that holds a virtual fence and shows where every animal is, how it is doing, and when one needs you. No collar to snap or catch.
+- [Heart rate and temperature on every animal | Headway](https://headwayfence.com/ear-tag/health.html): The Headway herd tag tracks heart rate, temperature, blood oxygen and movement on every animal, and warns you when one drifts from its normal.
 - [Automatic livestock weight records | Headway](https://headwayfence.com/ear-tag/weighing.html): The tag does not weigh. It works with a walk-over scale, so every weight saves to the right animal with no typing, on the days you pick.
 - [Tap a tag: livestock records in the field | Headway](https://headwayfence.com/ear-tag/tap-a-tag.html): Hold your phone to a Headway ear tag and that animal's record opens in the field, even with no signal. Handy for the vet in the pen.
 - [Lightning alerts for livestock | Headway ear tags](https://headwayfence.com/ear-tag/lightning.html): Headway warns you when lightning is close to the herd, and one tap moves the animals off high ground or away from a lone tree to safer ground.
@@ -40,6 +42,7 @@
 
 - [Ranch app with a live map and no subscription | Headway](https://headwayfence.com/software/): One ranch app with no subscription: a live map of every animal, virtual fence strips, grazing plans, herd records, money and farm tax in one place.
 - [Auto grazing and a season grazing planner | Headway](https://headwayfence.com/software/grazing.html): Plan which mob grazes where and when. The herd moves on time by itself, and you see the plan next to where the animals really grazed.
+- [Save time on the ranch: jobs, reminders, auto moves](https://headwayfence.com/software/time.html): No fence to build, moves that happen on their own, one list of today's jobs and reminders that come on time. Headway gives you back your time.
 - [Livestock health, breeding and lifetime records | Headway](https://headwayfence.com/software/records.html): Every animal's story in one place, from birth to sale: family lines, vaccines and treatments with withdrawal dates, weights and every paddock.
 - [Ranch cash flow and money planning | Headway](https://headwayfence.com/software/money.html): Plan the year and see where the money really goes. Add an expense in 3 taps, spot anything over budget, and have every entry ready for tax time.
 - [Farm tax forms filled in as you go | Headway](https://headwayfence.com/software/tax.html): The Headway app fills in the farm tax form for the country you are in. Every expense lands on the right line, ready for your accountant at year end.
