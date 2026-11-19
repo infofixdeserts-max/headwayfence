@@ -267,6 +267,11 @@ Find a tag
 Play a locate tone from the app to find an animal in the brush.
 Out of contact
 If a tag has not checked in for a day you are told, and it keeps holding its line on its own.
+Every angle
+Sun side, from above.
+From the back.
+Straight down on the solar cells.
+Low angle. It sits close to the ear.
 How the Headway ear tag goes together, from our CAD model.
 Want Headway on your place?
 Pilot tags go to Florida ranches first. Tell us about your herd and your ground.
@@ -687,6 +692,19 @@ Ready for the vet and the buyer
 Pull up the full history in the field with a phone tap, or export it for a buyer, a vet or a breed registry.
 Your records are yours. Export everything any time.
 Photo: Hubert Berberich (HubiB) , CC BY 3.0 , resized
+Want Headway on your place?
+Pilot tags go to Florida ranches first. Tell us about your herd and your ground.
+Join the pilot Contact us
+
+## Ranch and virtual fencing words explained | Headway
+
+URL: https://headwayfence.com/glossary.html
+
+Ranch and virtual fencing words explained | Headway
+Skip to the page
+Ranch and virtual fence words
+Plain meanings for the words used on this site and in the Headway app.
+Virtual fence A boundary drawn on a map in an app and held by a device on each animal, using sound first instead of wire and posts. Virtual fencing Managing where livestock graze with virtual fences instead of physical fence, so lines can be drawn and moved from an app. Break A smaller strip or section of a paddock that a mob grazes for a short time before moving to the next one. Strip grazing Giving the herd a fresh break of grass every day or two, with a back fence so grazed ground can rest. Mob A group of animals managed together, such as cows and calves or a group of steers. Paddock A fenced or virtually fenced area of pasture. Keep-out zone An area inside a paddock that animals are kept out of, such as a creek bank, the house yard or a pivot tower. Rest period The number of days since a paddock was last grazed. Good rest lets grass regrow and roots stay deep. Stocking rate How many animals the land carries, often measured in animal units per acre or hectare. Animal unit A standard measure of grazing demand, roughly one 1,000 lb cow with or without a calf. Grazing days How many days a break or paddock can feed a mob before it should move. Holistic Management A way of planning that looks at people, money and land together and tests every decision against what you want. EID tag A livestock ID tag with a tiny radio chip that scales and chute readers can read, using the ISO 11784 and 11785 standards. Walk-over scale A scale set in a lane, often on the way to water, that weighs each animal as it walks across. Average daily gain How much weight an animal puts on per day between two weighings. Withdrawal period The number of days after a treatment before an animal can be sold for meat or its milk used. EPD Expected progeny difference: a breed association estimate of how an animal's calves will compare on a trait such as birth weight. Dam and sire An animal's mother and father. NFC Near field communication: a short range radio that lets a phone read a tag held close to it. Tone The sound a Headway tag plays as an animal walks toward a virtual fence line. Most cattle turn back on the tone. Mild stimulus The last step in a virtual fence cue, used only after the tones, with hard limits per crossing and per day.
 Want Headway on your place?
 Pilot tags go to Florida ranches first. Tell us about your herd and your ground.
 Join the pilot Contact us

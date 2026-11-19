@@ -1,27 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://headwayfence.com/</loc><lastmod>2026-11-18</lastmod></url>
-  <url><loc>https://headwayfence.com/virtual-fencing/</loc><lastmod>2026-11-18</lastmod></url>
-  <url><loc>https://headwayfence.com/virtual-fencing/breaks.html</loc><lastmod>2026-11-18</lastmod></url>
-  <url><loc>https://headwayfence.com/virtual-fencing/keep-out-zones.html</loc><lastmod>2026-11-18</lastmod></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url><loc>https://headwayfence.com/</loc><lastmod>2026-11-18</lastmod><image:image><image:loc>https://headwayfence.com/img/app/app-map.png</image:loc></image:image><image:image><image:loc>https://headwayfence.com/img/photos/pasture-herd.jpg</image:loc></image:image><image:image><image:loc>https://headwayfence.com/img/tag/r-hero.jpg</image:loc></image:image></url>
+  <url><loc>https://headwayfence.com/virtual-fencing/</loc><lastmod>2026-11-18</lastmod><image:image><image:loc>https://headwayfence.com/img/photos/rotational-paddock.jpg</image:loc></image:image></url>
+  <url><loc>https://headwayfence.com/virtual-fencing/breaks.html</loc><lastmod>2026-11-18</lastmod><image:image><image:loc>https://headwayfence.com/img/app/app-grazing.png</image:loc></image:image></url>
+  <url><loc>https://headwayfence.com/virtual-fencing/keep-out-zones.html</loc><lastmod>2026-11-18</lastmod><image:image><image:loc>https://headwayfence.com/img/photos/rangeland.jpg</image:loc></image:image></url>
   <url><loc>https://headwayfence.com/virtual-fencing/welfare.html</loc><lastmod>2026-11-18</lastmod></url>
   <url><loc>https://headwayfence.com/virtual-fencing/choosing.html</loc><lastmod>2026-11-18</lastmod></url>
-  <url><loc>https://headwayfence.com/ear-tag/</loc><lastmod>2026-11-18</lastmod></url>
-  <url><loc>https://headwayfence.com/ear-tag/lightning.html</loc><lastmod>2026-11-18</lastmod></url>
-  <url><loc>https://headwayfence.com/ear-tag/solar.html</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>https://headwayfence.com/ear-tag/</loc><lastmod>2026-11-18</lastmod><image:image><image:loc>https://headwayfence.com/img/tag/r-back.jpg</image:loc></image:image><image:image><image:loc>https://headwayfence.com/img/tag/r-exploded.jpg</image:loc></image:image><image:image><image:loc>https://headwayfence.com/img/tag/r-family.jpg</image:loc></image:image><image:image><image:loc>https://headwayfence.com/img/tag/r-hero.jpg</image:loc></image:image><image:image><image:loc>https://headwayfence.com/img/tag/r-hero_low.jpg</image:loc></image:image><image:image><image:loc>https://headwayfence.com/img/tag/r-top.jpg</image:loc></image:image></url>
+  <url><loc>https://headwayfence.com/ear-tag/lightning.html</loc><lastmod>2026-11-18</lastmod><image:image><image:loc>https://headwayfence.com/img/photos/storm-lightning.jpg</image:loc></image:image></url>
+  <url><loc>https://headwayfence.com/ear-tag/solar.html</loc><lastmod>2026-11-18</lastmod><image:image><image:loc>https://headwayfence.com/img/tag/r-top.jpg</image:loc></image:image></url>
   <url><loc>https://headwayfence.com/ear-tag/coverage.html</loc><lastmod>2026-11-18</lastmod></url>
-  <url><loc>https://headwayfence.com/software/</loc><lastmod>2026-11-18</lastmod></url>
-  <url><loc>https://headwayfence.com/software/grazing.html</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>https://headwayfence.com/software/</loc><lastmod>2026-11-18</lastmod><image:image><image:loc>https://headwayfence.com/img/app/app-map.png</image:loc></image:image><image:image><image:loc>https://headwayfence.com/img/app/app-today-tablet.png</image:loc></image:image></url>
+  <url><loc>https://headwayfence.com/software/grazing.html</loc><lastmod>2026-11-18</lastmod><image:image><image:loc>https://headwayfence.com/img/app/app-grazing.png</image:loc></image:image></url>
   <url><loc>https://headwayfence.com/software/money.html</loc><lastmod>2026-11-18</lastmod></url>
   <url><loc>https://headwayfence.com/software/tax.html</loc><lastmod>2026-11-18</lastmod></url>
   <url><loc>https://headwayfence.com/software/license.html</loc><lastmod>2026-11-18</lastmod></url>
-  <url><loc>https://headwayfence.com/about.html</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>https://headwayfence.com/about.html</loc><lastmod>2026-11-18</lastmod><image:image><image:loc>https://headwayfence.com/img/tag/r-family.jpg</image:loc></image:image></url>
   <url><loc>https://headwayfence.com/contact.html</loc><lastmod>2026-11-18</lastmod></url>
-  <url><loc>https://headwayfence.com/pilot.html</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>https://headwayfence.com/pilot.html</loc><lastmod>2026-11-18</lastmod><image:image><image:loc>https://headwayfence.com/img/photos/cow-calf.jpg</image:loc></image:image></url>
   <url><loc>https://headwayfence.com/faq.html</loc><lastmod>2026-11-18</lastmod></url>
   <url><loc>https://headwayfence.com/privacy.html</loc><lastmod>2026-11-18</lastmod></url>
-  <url><loc>https://headwayfence.com/virtual-fencing/herding.html</loc><lastmod>2026-11-18</lastmod></url>
-  <url><loc>https://headwayfence.com/ear-tag/weighing.html</loc><lastmod>2026-11-18</lastmod></url>
-  <url><loc>https://headwayfence.com/ear-tag/tap-a-tag.html</loc><lastmod>2026-11-18</lastmod></url>
-  <url><loc>https://headwayfence.com/software/records.html</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>https://headwayfence.com/virtual-fencing/herding.html</loc><lastmod>2026-11-18</lastmod><image:image><image:loc>https://headwayfence.com/img/app/app-guide.png</image:loc></image:image><image:image><image:loc>https://headwayfence.com/img/photos/rancher.jpg</image:loc></image:image></url>
+  <url><loc>https://headwayfence.com/ear-tag/weighing.html</loc><lastmod>2026-11-18</lastmod><image:image><image:loc>https://headwayfence.com/img/photos/grazing-close.jpg</image:loc></image:image></url>
+  <url><loc>https://headwayfence.com/ear-tag/tap-a-tag.html</loc><lastmod>2026-11-18</lastmod><image:image><image:loc>https://headwayfence.com/img/app/app-record.png</image:loc></image:image><image:image><image:loc>https://headwayfence.com/img/photos/ear-tag.jpg</image:loc></image:image></url>
+  <url><loc>https://headwayfence.com/software/records.html</loc><lastmod>2026-11-18</lastmod><image:image><image:loc>https://headwayfence.com/img/photos/cow-calf.jpg</image:loc></image:image></url>
+  <url><loc>https://headwayfence.com/glossary.html</loc><lastmod>2026-11-18</lastmod></url>
 </urlset>
