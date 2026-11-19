@@ -10,6 +10,7 @@
 - Power: Charged by the sun. Built to last 15 years
 - Fence: Sound first. A stimulus only as a last step
 - Health: Heart rate, temperature, blood oxygen and movement on every animal
+- Land and wildlife: Pictures of grass and plants, bird and insect life, predator alerts
 - Also does: Moves, splits and guides the herd. Lightning and problem alerts. Weight records with a walk-over scale
 - App: Map, grazing, herd records, money and tax. No subscription
 - Status: Tags in testing. Patent pending
@@ -56,6 +57,8 @@ Lightning alerts
 Know when a storm is close to the herd, and move them in one tap.
 Health monitoring
 Heart rate, temperature and more on every animal, so you see trouble before it shows.
+Land and wildlife
+The herd's tags see and hear your land: grass, weeds, birds, insects and predators.
 Save time
 One list of today's jobs. Moves, weigh days and reminders run on their own.
 Problem alerts
@@ -98,6 +101,7 @@ Worn as An ear tag, not a collar
 Power Charged by the sun. Built to last 15 years
 Fence Sound first. A stimulus only as a last step
 Health Heart rate, temperature, blood oxygen and movement on every animal
+Land and wildlife Pictures of grass and plants, bird and insect life, predator alerts
 Also does Moves, splits and guides the herd. Lightning and problem alerts. Weight records with a walk-over scale
 App Map, grazing, herd records, money and tax. No subscription
 Status Tags in testing. Patent pending
@@ -250,7 +254,7 @@ Goes on every animal. Holds the fence and watches heart rate, temperature and mo
 Lead tag
 Goes in the other ear of a few animals. Finds the herd on the map, sends news to your app and hears lightning.
 Camera tag
-Goes in the other ear of a few animals. Sends pictures from the herd.
+Goes in the other ear of a few animals. Takes pictures of the grass, plants and wildlife where the herd grazes.
 Where they are
 Every animal on your map.
 How they are doing
@@ -466,6 +470,7 @@ Worn as An ear tag, not a collar
 Power Charged by the sun. Built to last 15 years
 Fence Sound first. A stimulus only as a last step
 Health Heart rate, temperature, blood oxygen and movement on every animal
+Land and wildlife Pictures of grass and plants, bird and insect life, predator alerts
 Also does Moves, splits and guides the herd. Lightning and problem alerts. Weight records with a walk-over scale
 App Map, grazing, herd records, money and tax. No subscription
 Status Tags in testing. Patent pending
@@ -528,6 +533,10 @@ When does an animal get its tag?
 Its record starts the day it is born, linked to its mother. The Headway tag goes on at weaning, when the ear is big enough.
 Can it tell if an animal is sick?
 The herd tag tracks heart rate, temperature, blood oxygen and how the animal moves. When one of them drifts from that animal's normal, you get an alert, often before you could see it.
+Can it watch for predators?
+Yes. The tags listen for wolves, coyotes and dogs, and notice when the herd bunches up or runs. You get an alert with where it happened.
+Can it tell me about my land?
+Yes. Camera tags take pictures of the grass and plants as the herd grazes, and every tag listens for birds and insects. Over time you see your land getting better, or not.
 How does it save me time?
 No fence to build or move, moves that happen on their own, and one list of today's jobs with the most urgent first.
 Does the tag weigh animals?
@@ -650,6 +659,36 @@ Catch it early
 Each animal has its own normal. Headway learns it, and tells you when that animal drifts from it. You check the one that needs you, not the whole herd.
 Every reading goes on the animal's record, ready for your vet.
 Photo: USDAgov , Public domain , resized
+Want Headway on your place?
+Our first ranches are already lined up. Tell us about yours.
+Get in touch Questions
+
+## Land and wildlife monitoring from the herd | Headway
+
+URL: https://headwayfence.com/ear-tag/wildlife.html
+
+Land and wildlife monitoring from the herd | Headway
+Skip to the page
+Land and wildlife
+Your herd walks every corner of your place. Their tags see and hear it, so you know what is living on your land.
+Grass and plants
+Camera tags take pictures of the ground as the herd grazes. See grass cover, bare ground and which plants are coming in.
+Weeds
+Spot a weed patch early, and drop it on today's job list.
+Birds
+Every tag listens. Bird song tells you which birds live on your land, and how that changes year to year.
+Insects
+Hear the buzz of bees, crickets and other insects. More life in the grass is a sign of healthy land.
+Predators
+The tags listen for wolves, coyotes and dogs, and notice when the herd bunches up or runs. You get an alert and where it happened.
+Other wildlife
+Deer, hogs and other animals the camera tags catch, marked on your map.
+See your land get better
+Good grazing brings more grass, more plants, more birds and more insects. Headway keeps a record of all of it, season by season, paddock by paddock.
+A map of what lives where.
+A yearly report for your land.
+Proof of the good you are doing, for buyers, programs and the next generation.
+Photo: Photo by Scott Bauer, USDA Natural Resources Conservation Service. , Public domain , resized
 Want Headway on your place?
 Our first ranches are already lined up. Tell us about yours.
 Get in touch Questions

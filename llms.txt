@@ -10,6 +10,7 @@
 - Power: Charged by the sun. Built to last 15 years
 - Fence: Sound first. A stimulus only as a last step
 - Health: Heart rate, temperature, blood oxygen and movement on every animal
+- Land and wildlife: Pictures of grass and plants, bird and insect life, predator alerts
 - Also does: Moves, splits and guides the herd. Lightning and problem alerts. Weight records with a walk-over scale
 - App: Map, grazing, herd records, money and tax. No subscription
 - Status: Tags in testing. Patent pending
@@ -32,6 +33,7 @@
 
 - [Solar livestock ear tag for virtual fencing | Headway](https://headwayfence.com/ear-tag/): A solar ear tag that holds a virtual fence and shows where every animal is, how it is doing, and when one needs you. No collar to snap or catch.
 - [Heart rate and temperature on every animal | Headway](https://headwayfence.com/ear-tag/health.html): The Headway herd tag tracks heart rate, temperature, blood oxygen and movement on every animal, and warns you when one drifts from its normal.
+- [Land and wildlife monitoring from the herd | Headway](https://headwayfence.com/ear-tag/wildlife.html): Headway tags see and hear your land as the herd grazes: grass and plants, weeds, birds, insects, and alerts for wolves, coyotes and dogs.
 - [Automatic livestock weight records | Headway](https://headwayfence.com/ear-tag/weighing.html): The tag does not weigh. It works with a walk-over scale, so every weight saves to the right animal with no typing, on the days you pick.
 - [Tap a tag: livestock records in the field | Headway](https://headwayfence.com/ear-tag/tap-a-tag.html): Hold your phone to a Headway ear tag and that animal's record opens in the field, even with no signal. Handy for the vet in the pen.
 - [Lightning alerts for livestock | Headway ear tags](https://headwayfence.com/ear-tag/lightning.html): Headway warns you when lightning is close to the herd, and one tap moves the animals off high ground or away from a lone tree to safer ground.
