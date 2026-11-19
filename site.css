@@ -169,6 +169,7 @@ figure.render.wide{margin-top:8px}
 .gloss dt{font:600 22px var(--head);margin-top:22px;color:var(--olive-deep)}
 .gloss dd{color:var(--gray);margin-top:4px;max-width:46em}
 .contact{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.contact.two{grid-template-columns:repeat(2,1fr)}
 .big-link{font-size:21px;font-weight:600;word-break:break-all}
 @media (max-width:980px){.qa,.contact{grid-template-columns:1fr}}
 @media (max-width:640px){.facts,.facts tbody,.facts tr,.facts th,.facts td{display:block;width:auto} .facts th{border-top:1px solid var(--line);padding-bottom:2px} .facts td{border-top:0;padding-top:0} .facts td a{overflow-wrap:anywhere} .strip{grid-template-columns:1fr!important} .strip > div{display:flex;gap:10px;align-items:baseline}}

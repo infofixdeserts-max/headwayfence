@@ -13,7 +13,7 @@
     cows.push({ el: c, x: x, y: y, tx: x, ty: y });
   }
   var w = cows[0];
-  var lines = ["The line is drawn in the app and sent to every tag.", "One cow walks toward the line.", "Her tag plays a tone. She stops.", "She turns back. The tone was enough."];
+  var lines = ["Draw the line in the app. Every tag gets it.", "One animal walks toward the line.", "Its tag plays a tone. It stops.", "It turns back. The tone was enough."];
   var t0 = performance.now();
   function place() { cows.forEach(function (c) { c.el.setAttribute("cx", c.x.toFixed(1)); c.el.setAttribute("cy", c.y.toFixed(1)); }); }
   function frame(now) {
