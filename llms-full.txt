@@ -1,32 +1,32 @@
 # Headway
 
-> Headway Ag LLC (Stuart, Florida, USA) builds solar ear tags that hold a virtual fence for cattle, watch every animal and detect lightning, and a free ranch app for grazing plans, herd records, money and farm tax forms. Tags are in testing; pilot units go to Florida ranches first. Patent pending. Contact: hughheadwayag@gmail.com
+> Headway Ag LLC (Stuart, Florida, USA) builds solar ear tags that hold a virtual fence for cattle, watch every animal and detect lightning, and a ranch app with no subscription for grazing plans, herd records, money and farm tax forms. Tags are in testing. Patent pending. Contact: hughheadwayag@gmail.com
 
 ## Key facts
 
 - Company: Headway Ag LLC, Stuart, Florida, USA
-- Product: Solar ear tags for virtual fencing of cattle, and a free ranch app
+- Product: Solar ear tags for virtual fencing of cattle, and a ranch app with no subscription
 - Livestock: Cattle, beef and dairy
 - Worn as: An ear tag, not a neck collar
 - Power: Solar, charged every day on the ear
 - Cue: Sound first. A mild stimulus only as the last step, with hard limits
-- Also does: Guiding and splitting the herd, automatic weighing, lightning detection, theft and no movement alerts, 7 day track replay
+- Also does: Guiding and splitting the herd, automatic weight records with a walk-over scale, lightning detection, theft and no movement alerts, track replay
 - Records: Tagged at birth, full life history, health and genetics, read in the field by phone tap
-- App: Live map, grazing planner, herd records, money and farm tax forms. Free
-- Status: Tags in testing. Pilot on Florida ranches first. Patent pending
+- App: Live map, grazing planner, herd records, money and farm tax forms. No subscription
+- Status: Tags in testing. Patent pending
 - Contact: hughheadwayag@gmail.com
 
-## Headway: virtual fencing ear tags and a free ranch app
+## Headway: virtual fencing ear tags and a ranch app
 
 URL: https://headwayfence.com/
 
-Headway: virtual fencing ear tags and a free ranch app
+Headway: virtual fencing ear tags and a ranch app
 Skip to the page
-Virtual fencing for cattle, and the whole ranch in one free app.
-Solar ear tags hold the paddock line, watch every animal and listen for lightning. The free Headway app plans the grazing, moves the herd on schedule, keeps the books and fills in your farm tax forms.
+Virtual fencing for cattle, and the whole ranch in one app.
+Solar ear tags hold the paddock line, watch every animal and listen for lightning. The Headway app has no subscription. It plans the grazing, moves the herd on schedule, keeps the books and fills in your farm tax forms.
 Join the pilot How the line works
 The line is drawn in the app and sent to every tag.
-Free app for every rancher, money and tax tools included
+No subscription for the app, money and tax tools included
 3 taps or fewer for every everyday job in the app
 Ear tag no neck collar, no strap to catch on a fence
 Sun charges every tag, every day, right on the ear
@@ -62,7 +62,7 @@ An animal moving at truck speed sends an alert straight away.
 Map pins for jobs
 Drop a pin on a broken gate or a weed patch and it lands on today's job list.
 Replay tracks
-See where a cow has been over the last 7 days. Handy for finding a new calf.
+See where a cow has been. Handy for finding a new calf.
 Heat and rest maps
 See how hard each part of a paddock was grazed, and how long it has rested.
 Season grazing planner
@@ -73,8 +73,8 @@ Pasture observations
 Notes and cover per paddock, kept as a history you can use.
 Behaviour trends
 Hours spent grazing, resting and walking, day by day, from how each animal moves.
-Automatic weighing
-On weigh days the herd walks to water through a scale lane, so every animal is weighed on schedule.
+Automatic weight records
+The tag does not weigh. It tells a walk-over scale who is on it, so each weight is saved to the right animal on its own.
 Health and genetics
 Treatments, vaccines, withdrawal dates, dam, sire and breed records, all in one place.
 Tagged at birth
@@ -93,18 +93,18 @@ Grazing that leaves the ground better every year.
 Photo: USDAgov , Public domain , resized
 Headway at a glance
 Company Headway Ag LLC, Stuart, Florida, USA
-Product Solar ear tags for virtual fencing of cattle, and a free ranch app
+Product Solar ear tags for virtual fencing of cattle, and a ranch app with no subscription
 Livestock Cattle, beef and dairy
 Worn as An ear tag, not a neck collar
 Power Solar, charged every day on the ear
 Cue Sound first. A mild stimulus only as the last step, with hard limits
-Also does Guiding and splitting the herd, automatic weighing, lightning detection, theft and no movement alerts, 7 day track replay
+Also does Guiding and splitting the herd, automatic weight records with a walk-over scale, lightning detection, theft and no movement alerts, track replay
 Records Tagged at birth, full life history, health and genetics, read in the field by phone tap
-App Live map, grazing planner, herd records, money and farm tax forms. Free
-Status Tags in testing. Pilot on Florida ranches first. Patent pending
+App Live map, grazing planner, herd records, money and farm tax forms. No subscription
+Status Tags in testing. Patent pending
 Contact hughheadwayag@gmail.com
 Want Headway on your place?
-Pilot tags go to Florida ranches first. Tell us about your herd and your ground.
+Tell us what makes your ranch different: the herd, the ground, the weather.
 Join the pilot Contact us
 
 ## How virtual fencing for cattle works | Headway
@@ -114,7 +114,7 @@ URL: https://headwayfence.com/virtual-fencing/
 How virtual fencing for cattle works | Headway
 Skip to the page
 How a virtual fence works
-Draw the line on a map. The tags hold it. Research on virtual fencing shows most cattle learn the line within a few days, mostly from sound.
+Draw the line on a map. The tags hold it. A tone warns first.
 1
 Draw it
 Trace a paddock, a strip or a keep-out zone on the farm map. Save it and it goes to every tag in the mob.
@@ -129,7 +129,7 @@ Grazing breaks, creek banks, under-used corners, water points and pivot towers c
 A virtual fence is a management tool. It is not a legal perimeter fence, and it does not replace the permanent fence along your road and boundary.
 Photo: Photo by Bob Nichols, USDA Natural Resources Conservation Service. , Public domain , resized
 Want Headway on your place?
-Pilot tags go to Florida ranches first. Tell us about your herd and your ground.
+Tell us what makes your ranch different: the herd, the ground, the weather.
 Join the pilot Contact us
 
 ## Strip grazing and breaks with virtual fencing | Headway
@@ -154,7 +154,7 @@ Undo
 Moved the wrong mob? Undo is right there for a few seconds.
 The app is in development. Screens show demo data.
 Want Headway on your place?
-Pilot tags go to Florida ranches first. Tell us about your herd and your ground.
+Tell us what makes your ranch different: the herd, the ground, the weather.
 Join the pilot Contact us
 
 ## Keep-out zones for cattle: creeks, yards, pivots | Headway
@@ -169,10 +169,10 @@ A keep-out zone works like any other line. A cow that walks toward it hears the 
 Protect creek banks and let them heal.
 Keep the herd off the yard and the road gate.
 Fence around a pivot tower or a bog without a post.
-Up to 8 keep-out zones inside each paddock, held on every tag.
+No limit on keep-out zones. Draw as many as your place needs.
 Photo: Photo by Scott Bauer, USDA Natural Resources Conservation Service. , Public domain , resized
 Want Headway on your place?
-Pilot tags go to Florida ranches first. Tell us about your herd and your ground.
+Tell us what makes your ranch different: the herd, the ground, the weather.
 Join the pilot Contact us
 
 ## Virtual fencing and animal welfare | Headway
@@ -197,7 +197,7 @@ Unsure of position, no cue
 If the tag is not sure where it is, it does nothing.
 These rules are written into the tag software itself and tested every time it is built. They are not settings that can be switched off.
 Want Headway on your place?
-Pilot tags go to Florida ranches first. Tell us about your herd and your ground.
+Tell us what makes your ranch different: the herd, the ground, the weather.
 Join the pilot Contact us
 
 ## How to choose a virtual fence for cattle | Headway
@@ -209,7 +209,7 @@ Skip to the page
 How to choose a virtual fence
 Virtual fencing is a long-term choice for your operation. Here are the questions to ask any company before you buy, and how Headway answers them.
 What does it cost per head per year, including data?
-Headway's app is free. Tag pricing will be published before the first sale.
+The Headway app has no subscription. Tag pricing will be published before the first sale.
 How long does it run through a cloudy week?
 Headway tags check their position less often in a long cloudy spell, but never near the line, so the fence holds.
 Does it work with no cell signal?
@@ -217,7 +217,7 @@ The grazing plan is stored on every Headway tag, so planned moves happen with no
 Can I keep animals out of a creek or the yard inside a paddock?
 Yes. Headway has keep-out zones inside each paddock.
 Can I pause it while I feed?
-Yes. Pause a mob's tags from the app. They switch back on by themselves.
+Yes. Pause a mob's tags from the app, and turn them back on when you are done.
 What happens to an animal that ends up outside the line?
 The Headway tag goes quiet and tells you where the animal is, so it is never pushed away from home.
 Is it worn on the neck or the ear?
@@ -234,7 +234,7 @@ Check prices in your own currency and ask what changes at renewal.
 Ask what you need to buy besides the devices: base stations, towers or data plans.
 Look at a real month of alerts from a ranch like yours.
 Want Headway on your place?
-Pilot tags go to Florida ranches first. Tell us about your herd and your ground.
+Tell us what makes your ranch different: the herd, the ground, the weather.
 Join the pilot Contact us
 
 ## Solar cattle ear tag: GPS, behaviour, alerts | Headway
@@ -274,7 +274,7 @@ Straight down on the solar cells.
 Low angle. It sits close to the ear.
 How the Headway ear tag goes together, from our CAD model.
 Want Headway on your place?
-Pilot tags go to Florida ranches first. Tell us about your herd and your ground.
+Tell us what makes your ranch different: the herd, the ground, the weather.
 Join the pilot Contact us
 
 ## Lightning detection for cattle | Headway ear tags
@@ -292,7 +292,7 @@ Strikes are logged, so you can see how often storms hit each part of the place.
 A virtual fence has one more advantage here. There is no wire for lightning to run along.
 Photo: USFWS Mountain Prairie , Public domain , resized
 Want Headway on your place?
-Pilot tags go to Florida ranches first. Tell us about your herd and your ground.
+Tell us what makes your ranch different: the herd, the ground, the weather.
 Join the pilot Contact us
 
 ## Solar powered ear tag for cattle | Headway
@@ -308,10 +308,8 @@ Sealed for life outside
 Rain, mud and dust stay out.
 Looks after its own battery
 In a cloudy week the tag checks its position less often, but never near the line, so the fence holds.
-Built for updates
-The tag is built to take new features over the air, so nobody has to catch a cow.
 Want Headway on your place?
-Pilot tags go to Florida ranches first. Tell us about your herd and your ground.
+Tell us what makes your ranch different: the herd, the ground, the weather.
 Join the pilot Contact us
 
 ## Virtual fencing with no cell signal | Headway
@@ -324,28 +322,22 @@ Places with no cell signal
 Ranches have dead spots. Headway is built to keep working in them.
 Plan stored on the tag
 The grazing plan lives on every tag, so moves happen on time even when nothing can get through.
-Cell first
-Tags send their news over the low-power cellular networks made for devices like this.
-Low-data app mode
-The app sends only what it must, so it works over phone satellite messaging where your carrier and phone support it.
-Herd link, in development
-Tags passing messages tag to tag, so a cow down in a draw is heard through her herd mates up on the ridge.
-Yard base station, in development
-Where there is no tower at all, a base station in the yard carries the link.
-Satellite tags, planned
-A satellite link for the tags themselves, for open range with no towers.
+Holds the line on its own
+With no signal each tag keeps its line and keeps cueing the same way. Nothing in the paddock depends on a tower.
+Out of contact, you are told
+If a tag has not checked in for a day, the app tells you.
 Want Headway on your place?
-Pilot tags go to Florida ranches first. Tell us about your herd and your ground.
+Tell us what makes your ranch different: the herd, the ground, the weather.
 Join the pilot Contact us
 
-## Free ranch management app with a live map | Headway
+## Ranch management app with no subscription | Headway
 
 URL: https://headwayfence.com/software/
 
-Free ranch management app with a live map | Headway
+Ranch management app with no subscription | Headway
 Skip to the page
-The free Headway app
-Live map, grazing, herd, land, money and tax. It will be free for every rancher and farmer. Best on a computer or tablet, and it works on your phone. The app is in development now.
+The Headway app
+Live map, grazing, herd, land, money and tax. No subscription. Best on a computer or tablet, and it works on your phone. The app is in development now.
 The app is in development. Screens show demo data.
 Live map
 Every animal, every mob, every break, keep-out zone, trough and pin.
@@ -363,7 +355,7 @@ The app is in development. Screens show demo data.
 Made for the screen you can see.
 Big map on the computer, the same map on the tablet in the truck, and the quick jobs on your phone. Buttons are big enough for gloves.
 Want Headway on your place?
-Pilot tags go to Florida ranches first. Tell us about your herd and your ground.
+Tell us what makes your ranch different: the herd, the ground, the weather.
 Join the pilot Contact us
 
 ## Auto grazing and seasonal grazing planner | Headway
@@ -388,14 +380,14 @@ How long each break will last before you open it.
 Rest periods
 Days since each paddock was last grazed, with a target you set.
 Want Headway on your place?
-Pilot tags go to Florida ranches first. Tell us about your herd and your ground.
+Tell us what makes your ranch different: the herd, the ground, the weather.
 Join the pilot Contact us
 
-## Free ranch cash flow and financial planning | Headway
+## Ranch cash flow and financial planning | Headway
 
 URL: https://headwayfence.com/software/money.html
 
-Free ranch cash flow and financial planning | Headway
+Ranch cash flow and financial planning | Headway
 Skip to the page
 Money and cash flow
 Holistic financial planning without the spreadsheet. Plan the year, then watch what really happens.
@@ -412,7 +404,7 @@ Your money records are yours. Export them any time.
 Ready for tax time
 Every entry already sits on the right line of your farm tax form.
 Want Headway on your place?
-Pilot tags go to Florida ranches first. Tell us about your herd and your ground.
+Tell us what makes your ranch different: the herd, the ground, the weather.
 Join the pilot Contact us
 
 ## Farm tax forms filled in for 12 countries | Headway
@@ -438,26 +430,26 @@ Zimbabwe ITF 12C Income Tax Self Assessment Return, tax year ended 31 December 2
 Any other country A clean farm income and expense statement your accountant can move onto your form.
 The app picks your country from where your ranch is. Drafts only. A tax professional in your country checks and files.
 Want Headway on your place?
-Pilot tags go to Florida ranches first. Tell us about your herd and your ground.
+Tell us what makes your ranch different: the herd, the ground, the weather.
 Join the pilot Contact us
 
-## Free ranch software, licensed by Headway Ag LLC
+## No subscription ranch software | Headway Ag LLC
 
 URL: https://headwayfence.com/software/license.html
 
-Free ranch software, licensed by Headway Ag LLC
+No subscription ranch software | Headway Ag LLC
 Skip to the page
-Free, and licensed
-The Headway app will be free for every rancher and farmer. Headway Ag LLC owns it and licenses it to you.
-Free to use
-Run your place with it, for profit too. No fee for the software.
+No subscription, and licensed
+The Headway app has no subscription model. Headway Ag LLC owns it and licenses it to you.
+No subscription
+No monthly or yearly plan to sign up for. Run your place with it, for profit too.
 Owned by Headway
 No copying, reselling or rebuilding it.
 Your data is yours
 Export everything any time. We never sell it.
-The full license text is published with the app at launch.
+The full license text, with all terms, is published with the app at launch. The license text decides.
 Want Headway on your place?
-Pilot tags go to Florida ranches first. Tell us about your herd and your ground.
+Tell us what makes your ranch different: the herd, the ground, the weather.
 Join the pilot Contact us
 
 ## About Headway Ag LLC, Stuart, Florida | Headway
@@ -467,30 +459,30 @@ URL: https://headwayfence.com/about.html
 About Headway Ag LLC, Stuart, Florida | Headway
 Skip to the page
 About Headway
-Headway Ag LLC is a ranch technology company in Stuart, Florida. We build Headway: solar ear tags that hold a virtual fence for cattle, and a free app that runs the rest of the ranch.
+Headway Ag LLC is a ranch technology company in Stuart, Florida. We build Headway: solar ear tags that hold a virtual fence for cattle, and an app with no subscription that runs the rest of the ranch.
 Why we build it
 Fence is slow and costly to build and move. Good grazing needs the herd in the right place for the right time, every time. Headway makes that a few taps instead of a few days of work.
 We build on Holistic Management: people, money and land planned together. That is why the app does grazing, money and tax, not just fence lines.
 How we work
 Sound first, with welfare limits written into the tag.
 An ear tag, not a collar.
-Software free for every rancher. Your data is yours.
+No subscription for the app. Your data is yours.
 Honest status: tags are in testing, pilot first.
 Headway ear tag, from our CAD model.
 Headway at a glance
 Company Headway Ag LLC, Stuart, Florida, USA
-Product Solar ear tags for virtual fencing of cattle, and a free ranch app
+Product Solar ear tags for virtual fencing of cattle, and a ranch app with no subscription
 Livestock Cattle, beef and dairy
 Worn as An ear tag, not a neck collar
 Power Solar, charged every day on the ear
 Cue Sound first. A mild stimulus only as the last step, with hard limits
-Also does Guiding and splitting the herd, automatic weighing, lightning detection, theft and no movement alerts, 7 day track replay
+Also does Guiding and splitting the herd, automatic weight records with a walk-over scale, lightning detection, theft and no movement alerts, track replay
 Records Tagged at birth, full life history, health and genetics, read in the field by phone tap
-App Live map, grazing planner, herd records, money and farm tax forms. Free
-Status Tags in testing. Pilot on Florida ranches first. Patent pending
+App Live map, grazing planner, herd records, money and farm tax forms. No subscription
+Status Tags in testing. Patent pending
 Contact hughheadwayag@gmail.com
 Want Headway on your place?
-Pilot tags go to Florida ranches first. Tell us about your herd and your ground.
+Tell us what makes your ranch different: the herd, the ground, the weather.
 Join the pilot Contact us
 
 ## Contact Headway Ag LLC | Virtual fencing for cattle
@@ -506,7 +498,7 @@ hughheadwayag@gmail.com
 Where we are
 Headway Ag LLC Stuart, Florida, USA
 Pilot
-Pilot tags go to Florida ranches first. How to join
+Tell us what makes your ranch different. How to join
 Pick what you are writing about
 Each button opens your email with the subject filled in.
 Pilot Questions Press Suppliers and partners
@@ -516,17 +508,19 @@ How many head you run, and what kind.
 Where your cell signal is weak or missing.
 What you would move first if you had no fence to build.
 
-## Join the Headway virtual fencing pilot in Florida
+## Join the Headway virtual fencing pilot for cattle
 
 URL: https://headwayfence.com/pilot.html
 
-Join the Headway virtual fencing pilot in Florida
+Join the Headway virtual fencing pilot for cattle
 Skip to the page
 Join the Headway pilot
-We are building Headway in Stuart, Florida. Pilot tags go on Florida ranches first, and we want to learn from real herds on real ground.
-Tell us how many head you run and on how many acres.
-Tell us where your cell signal is bad.
-Tell us what you would move first if you had no fence to build.
+Our first ranches are already lined up. Now we want ranches that will teach us something new. Why is your ranch different?
+Your ground: hills, brush, wet land, creeks, timber or open range.
+Your cattle: breed, cow and calf, stockers, bulls, how many head and on how many acres.
+Your weather: heat, cold, storms, lightning.
+Your signal: where the phone works and where it does not.
+The job you would hand to Headway first.
 Email us about the pilot
 If you build radios, sensors or sealed parts and want to supply us, write too.
 Photo: Hubert Berberich (HubiB) , CC BY 3.0 , resized
@@ -546,7 +540,7 @@ Virtual fencing questions answered | Headway
 Skip to the page
 Questions about Headway
 What is Headway?
-Headway is a virtual fencing system for cattle made by Headway Ag LLC in Stuart, Florida. Solar ear tags hold a virtual fence line, watch every animal and detect lightning. A free app plans the grazing, moves the herd, keeps the books and fills in farm tax forms.
+Headway is a virtual fencing system for cattle made by Headway Ag LLC in Stuart, Florida. Solar ear tags hold a virtual fence line, watch every animal and detect lightning. An app with no subscription plans the grazing, moves the herd, keeps the books and fills in farm tax forms.
 What is virtual fencing?
 A virtual fence is a line drawn on a map in an app. Each animal wears a device that knows where it is and where the line is. As the animal walks toward the line it hears a tone, and most turn around. It lets you move cattle and cross fence pastures without building fence.
 Is a virtual fence a legal perimeter fence?
@@ -558,29 +552,29 @@ Ranchers already tag ears. A tag has no neck strap to stretch, snap or catch on 
 How is the tag powered?
 A small solar panel on every tag charges it each day. The tag is sealed, so there are no batteries to swap.
 What if there is no cell signal?
-The grazing plan is stored on every tag, so planned moves still happen with no signal. A tag to tag herd link and a yard base station are in development for dead spots, and the app has a low-data mode for phone satellite messaging where supported.
+The grazing plan is stored on every tag, so planned moves still happen with no signal, and each tag keeps holding its line on its own.
 Can it detect lightning?
 Yes. Each tag hears lightning strikes, estimates how far away they are and tells you when a storm is getting closer to the herd.
-Is the app free?
-Yes. The Headway app is in development. It will be free to use under the Headway Free Use License, including the grazing, money and tax tools. Tags are sold separately.
+Is there a subscription for the app?
+No. The Headway app has no subscription model, so there is no monthly or yearly plan to sign up for. The app is in development, and the full terms will be in the Headway Software License at launch. Tags are sold separately.
 Which countries does the tax tool cover?
 The United States, Canada, the United Kingdom, Ireland, Australia, New Zealand, South Africa, Brazil, Argentina, Mexico, Kenya and Zimbabwe, plus a plain income and expense pack for anywhere else. Your accountant checks and files.
 Which animals does Headway work with?
 Headway is being built for beef and dairy cattle first.
 Can Headway guide, split or move the herd?
 Yes. You can walk a mob down a moving virtual lane to new ground, or split calves, steers or cows due to calve into their own mob with its own line, from the app.
-Can it weigh cattle automatically?
-Yes, with a walk-over scale at the water point. On weigh days the herd is guided to water through the scale lane, every few days on a schedule you pick, and each weight lands on that animal's record. Each Headway tag carries a standard livestock EID chip, so scales and readers that read EID tags work.
+Does the tag weigh cattle?
+No. The tag does not weigh anything. It records weights automatically with a walk-over scale, which you buy separately and set up at the water point. On weigh days the herd is guided to water through the scale lane, on a schedule you pick. The scale weighs each animal, the tag tells it who is on it, and the weight is saved to that animal's record with no typing.
 Can a vet see an animal's record in the field?
 Yes. Hold a phone to the tag and the record opens. The tag carries its ID and key health notes, so the basics show even with no signal.
 Does Headway keep health and genetics records?
 Yes. Each animal can be tagged at birth and keeps its whole history: birth and weaning weights, dam and sire, breed and genetic values from your breed association, vaccines, treatments with withdrawal dates, pregnancy checks, weights and moves.
 When can I buy tags?
-Tags are in testing now. Pilot tags go to Florida ranches first. Join the pilot to be on the list.
+Tags are in testing now. Tell us about your ranch on the pilot page to be on the list.
 How do I contact Headway?
 Email hughheadwayag@gmail.com. Headway Ag LLC is based in Stuart, Florida.
 Want Headway on your place?
-Pilot tags go to Florida ranches first. Tell us about your herd and your ground.
+Tell us what makes your ranch different: the herd, the ground, the weather.
 Join the pilot Contact us
 
 ## Privacy and cookie choice on headwayfence.com
@@ -622,22 +616,22 @@ Bring a mob up the lane to the yard for working, then pause their tags while the
 Photo: WBRA Jen , CC BY-SA 4.0 , resized
 The app is in development. Screens show demo data.
 Want Headway on your place?
-Pilot tags go to Florida ranches first. Tell us about your herd and your ground.
+Tell us what makes your ranch different: the herd, the ground, the weather.
 Join the pilot Contact us
 
-## Automatic cattle weighing on a schedule | Headway
+## Automatic cattle weight records | Headway
 
 URL: https://headwayfence.com/ear-tag/weighing.html
 
-Automatic cattle weighing on a schedule | Headway
+Automatic cattle weight records | Headway
 Skip to the page
-Automatic weighing
-Know what every animal weighs without running the herd through the chute. Weights come in on a schedule you pick.
+Automatic weight records
+The tag does not weigh the animal. It works with a walk-over scale so every weight is recorded to the right animal on its own, without running the herd through the chute.
 How it works
-Set up a walk-over scale in the lane to water.
+Set up a walk-over scale in the lane to water. The scale is bought separately.
 Pick how often: every 3, 7, 14 or 30 days.
 On weigh days the herd is guided to water through the scale lane.
-Each animal is weighed as it walks over, and the weight lands on its record.
+The scale weighs each animal as it walks over. The tag says who it is, and the weight is saved to the animal record with no typing.
 Every Headway tag carries a standard livestock EID chip, so scales and readers that read EID tags already know who is on the scale.
 Photo: USDA NRCS Texas , Public domain , resized
 Daily gain
@@ -647,7 +641,7 @@ An animal that stops gaining goes to the top of your list. That is often the fir
 Sell on time
 See which steers are at target weight this week, without guessing.
 Want Headway on your place?
-Pilot tags go to Florida ranches first. Tell us about your herd and your ground.
+Tell us what makes your ranch different: the herd, the ground, the weather.
 Join the pilot Contact us
 
 ## Tap a tag: cattle records in the field | Headway
@@ -665,7 +659,7 @@ Add a treatment right there, and it is saved to the record.
 Photo: BLM Oregon & Washington , Public domain , resized
 The app is in development. Screens show demo data.
 Want Headway on your place?
-Pilot tags go to Florida ranches first. Tell us about your herd and your ground.
+Tell us what makes your ranch different: the herd, the ground, the weather.
 Join the pilot Contact us
 
 ## Cattle health, genetics and lifetime records | Headway
@@ -693,7 +687,7 @@ Pull up the full history in the field with a phone tap, or export it for a buyer
 Your records are yours. Export everything any time.
 Photo: Hubert Berberich (HubiB) , CC BY 3.0 , resized
 Want Headway on your place?
-Pilot tags go to Florida ranches first. Tell us about your herd and your ground.
+Tell us what makes your ranch different: the herd, the ground, the weather.
 Join the pilot Contact us
 
 ## Ranch and virtual fencing words explained | Headway
@@ -706,5 +700,5 @@ Ranch and virtual fence words
 Plain meanings for the words used on this site and in the Headway app.
 Virtual fence A boundary drawn on a map in an app and held by a device on each animal, using sound first instead of wire and posts. Virtual fencing Managing where livestock graze with virtual fences instead of physical fence, so lines can be drawn and moved from an app. Break A smaller strip or section of a paddock that a mob grazes for a short time before moving to the next one. Strip grazing Giving the herd a fresh break of grass every day or two, with a back fence so grazed ground can rest. Mob A group of animals managed together, such as cows and calves or a group of steers. Paddock A fenced or virtually fenced area of pasture. Keep-out zone An area inside a paddock that animals are kept out of, such as a creek bank, the house yard or a pivot tower. Rest period The number of days since a paddock was last grazed. Good rest lets grass regrow and roots stay deep. Stocking rate How many animals the land carries, often measured in animal units per acre or hectare. Animal unit A standard measure of grazing demand, roughly one 1,000 lb cow with or without a calf. Grazing days How many days a break or paddock can feed a mob before it should move. Holistic Management A way of planning that looks at people, money and land together and tests every decision against what you want. EID tag A livestock ID tag with a tiny radio chip that scales and chute readers can read, using the ISO 11784 and 11785 standards. Walk-over scale A scale set in a lane, often on the way to water, that weighs each animal as it walks across. Average daily gain How much weight an animal puts on per day between two weighings. Withdrawal period The number of days after a treatment before an animal can be sold for meat or its milk used. EPD Expected progeny difference: a breed association estimate of how an animal's calves will compare on a trait such as birth weight. Dam and sire An animal's mother and father. NFC Near field communication: a short range radio that lets a phone read a tag held close to it. Tone The sound a Headway tag plays as an animal walks toward a virtual fence line. Most cattle turn back on the tone. Mild stimulus The last step in a virtual fence cue, used only after the tones, with hard limits per crossing and per day.
 Want Headway on your place?
-Pilot tags go to Florida ranches first. Tell us about your herd and your ground.
+Tell us what makes your ranch different: the herd, the ground, the weather.
 Join the pilot Contact us

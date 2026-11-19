@@ -171,5 +171,5 @@ figure.render.wide{margin-top:8px}
 .contact{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
 .big-link{font-size:21px;font-weight:600;word-break:break-all}
 @media (max-width:980px){.qa,.contact{grid-template-columns:1fr}}
-@media (max-width:640px){.facts th{width:110px}}
+@media (max-width:640px){.facts,.facts tbody,.facts tr,.facts th,.facts td{display:block;width:auto} .facts th{border-top:1px solid var(--line);padding-bottom:2px} .facts td{border-top:0;padding-top:0} .facts td a{overflow-wrap:anywhere} .strip{grid-template-columns:1fr!important} .strip > div{display:flex;gap:10px;align-items:baseline}}
 @media (max-width:480px){header.top .btn.go{display:none} header.top .logo img{height:36px} header.top .wrap{gap:10px}}
