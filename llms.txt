@@ -4,11 +4,11 @@
 
 ## Key facts
 
-- Product: Solar ear tags that hold a virtual fence, and one app for the whole place
+- Product: Three solar ear tags that hold a virtual fence, and one app for the whole place
 - Livestock: All livestock
 - Worn as: An ear tag, not a collar
 - Power: Charged by the sun. Built to last 15 years
-- Fence: Sound first. A mild stimulus only as a last step
+- Fence: Sound first. A stimulus only as a last step
 - Also does: Moves, splits and guides the herd. Lightning and problem alerts. Weight records with a walk-over scale
 - App: Map, grazing, herd records, money and tax. No subscription
 - Status: Tags in testing. Patent pending
@@ -24,7 +24,7 @@
 - [Strip grazing with a virtual fence | Headway](https://headwayfence.com/virtual-fencing/breaks.html): Give the herd fresh grass every day or two with no temporary fence. Ready-made strips, days of grass per strip, and moves in one tap from the app.
 - [Keep-out zones: creeks, yards and pivots | Headway](https://headwayfence.com/virtual-fencing/keep-out-zones.html): Keep livestock off creek banks, the yard, pivot towers and bogs with keep-out zones drawn on a map. No posts, no wire, as many zones as you need.
 - [Guide, split and move the herd from an app | Headway](https://headwayfence.com/virtual-fencing/herding.html): The virtual fence can move. Walk a mob to new ground, split calves or steers into their own group, and move the herd on a schedule from the app.
-- [Virtual fencing and animal welfare | Headway](https://headwayfence.com/virtual-fencing/welfare.html): Headway tags use sound first and a mild stimulus only as a last step, with strict limits. Animals walking back or running are always left alone.
+- [Virtual fencing and animal welfare | Headway](https://headwayfence.com/virtual-fencing/welfare.html): Headway tags use sound first and a stimulus only as a last step, with strict limits. Animals walking back or running are always left alone.
 - [How to choose a virtual fence for livestock | Headway](https://headwayfence.com/virtual-fencing/choosing.html): Questions to ask any virtual fencing company before you buy: yearly cost, cloudy days, no signal, keep-out zones and welfare, with Headway's answers.
 
 ## The ear tag
@@ -42,7 +42,7 @@
 - [Auto grazing and a season grazing planner | Headway](https://headwayfence.com/software/grazing.html): Plan which mob grazes where and when. The herd moves on time by itself, and you see the plan next to where the animals really grazed.
 - [Livestock health, breeding and lifetime records | Headway](https://headwayfence.com/software/records.html): Every animal's story in one place, from birth to sale: family lines, vaccines and treatments with withdrawal dates, weights and every paddock.
 - [Ranch cash flow and money planning | Headway](https://headwayfence.com/software/money.html): Plan the year and see where the money really goes. Add an expense in 3 taps, spot anything over budget, and have every entry ready for tax time.
-- [Farm tax forms filled in for 12 countries | Headway](https://headwayfence.com/software/tax.html): The Headway app fills in your farm tax form as you go, for 12 countries, plus a simple income and expense report for anywhere else.
+- [Farm tax forms filled in as you go | Headway](https://headwayfence.com/software/tax.html): The Headway app fills in the farm tax form for the country you are in. Every expense lands on the right line, ready for your accountant at year end.
 - [No subscription for the Headway ranch app](https://headwayfence.com/software/license.html): The Headway ranch app has no subscription. Headway Ag LLC owns it and licenses it to you, and your farm data stays yours to export any time.
 
 ## Company

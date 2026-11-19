@@ -4,11 +4,11 @@
 
 ## Key facts
 
-- Product: Solar ear tags that hold a virtual fence, and one app for the whole place
+- Product: Three solar ear tags that hold a virtual fence, and one app for the whole place
 - Livestock: All livestock
 - Worn as: An ear tag, not a collar
 - Power: Charged by the sun. Built to last 15 years
-- Fence: Sound first. A mild stimulus only as a last step
+- Fence: Sound first. A stimulus only as a last step
 - Also does: Moves, splits and guides the herd. Lightning and problem alerts. Weight records with a walk-over scale
 - App: Map, grazing, herd records, money and tax. No subscription
 - Status: Tags in testing. Patent pending
@@ -55,6 +55,8 @@ Lightning alerts
 Know when a storm is close to the herd, and move them in one tap.
 Problem alerts
 Animals that stop moving, wander off alone or leave the place show up first.
+Your own alerts
+Set alerts for what matters to you, like a cow going off alone to calve.
 Job pins
 Drop a pin on a broken gate and it goes on today's list.
 Grazing maps
@@ -78,11 +80,11 @@ Rest days for you and your crew.
 Grazing that leaves the land better every year.
 Photo: USDAgov , Public domain , resized
 Headway at a glance
-Product Solar ear tags that hold a virtual fence, and one app for the whole place
+Product Three solar ear tags that hold a virtual fence, and one app for the whole place
 Livestock All livestock
 Worn as An ear tag, not a collar
 Power Charged by the sun. Built to last 15 years
-Fence Sound first. A mild stimulus only as a last step
+Fence Sound first. A stimulus only as a last step
 Also does Moves, splits and guides the herd. Lightning and problem alerts. Weight records with a walk-over scale
 App Map, grazing, herd records, money and tax. No subscription
 Status Tags in testing. Patent pending
@@ -107,7 +109,7 @@ Warn it
 As an animal walks toward the line, its tag plays a tone. Most turn back right there.
 3
 Hold it
-If it keeps going, the tone gets stronger. A mild stimulus is the last step, with strict limits.
+If it keeps going, the tone gets stronger. A stimulus is the last step, with strict limits.
 Fence anything in or out.
 Grazing strips, creek banks, water points and pivot towers, all from the map. Choosing where stock graze, and for how long, builds better soil and better grass.
 A virtual fence does not replace your boundary and road fences.
@@ -166,7 +168,7 @@ URL: https://headwayfence.com/virtual-fencing/welfare.html
 Virtual fencing and animal welfare | Headway
 Skip to the page
 Animal welfare comes first
-Sound does the work. A mild stimulus is only a last step.
+Sound does the work. A stimulus is only a last step.
 Sound first
 A tone always comes first. Most animals turn back on the tone.
 Never on the way back
@@ -226,9 +228,16 @@ Solar livestock ear tag for virtual fencing | Headway
 Skip to the page
 The Headway ear tag
 Know where every animal is and how it is doing. You only hear about it when it matters.
-Headway ear tag, from our CAD model.
+The herd tag, camera tag and lead tag, from our CAD model.
 An ear tag, not a collar.
 It goes in the ear like the tags you already use. No neck strap to stretch, snap or catch on a fence.
+Three tags, one herd
+Herd tag
+Goes on every animal. Holds the fence and watches how each animal is doing.
+Lead tag
+Goes in the other ear of a few animals. Finds the herd on the map, sends news to your app and hears lightning.
+Camera tag
+Goes in the other ear of a few animals. Sends pictures from the herd.
 Where they are
 Every animal on your map.
 How they are doing
@@ -239,12 +248,10 @@ Not moving
 Goes straight to the top of your list.
 Leaving the place
 If animals move fast off your place, you know right away.
-Water
-See if the herd is visiting each trough, so a stuck float shows up fast.
 Lightning
 Know when a storm is close.
-Find an animal
-Play a sound from the app to find it in the brush.
+Your own alerts
+Set your own, like a cow going off alone to calve.
 Lost contact
 If a tag goes quiet for a day, you are told. It keeps the fence on its own.
 Every angle
@@ -386,27 +393,16 @@ Want Headway on your place?
 Our first ranches are already lined up. Tell us about yours.
 Get in touch Questions
 
-## Farm tax forms filled in for 12 countries | Headway
+## Farm tax forms filled in as you go | Headway
 
 URL: https://headwayfence.com/software/tax.html
 
-Farm tax forms filled in for 12 countries | Headway
+Farm tax forms filled in as you go | Headway
 Skip to the page
 Farm tax, filled in as you go
-Every expense lands on the right line of your country's farm tax form. At year end, send your accountant one file.
-United States Schedule F (Form 1040)
-Australia Business and professional items schedule, P8, with BAS
-South Africa ITR12 farming income, with VAT201
-Canada T2042 Statement of Farming Activities, 2025
-United Kingdom SA103F Self-employment (full), tax year 2025-26 (6 Apr 2025 to 5 Apr 2026), with SA100 Tax Return
-Ireland Form 11 Income Tax Return 2025 (ROS), Panel B Self-Employed Income, Extracts From Accounts lines 124-168
-New Zealand IR3F Farming income (attaches to the IR3 Individual tax return), year ended 31 March 2026
-Brazil Demonstrativo da Atividade Rural (ficha da DIRPF 2026, ano-calendario 2025), pessoa fisica produtor rural
-Argentina Ganancias Personas Humanas, F.711 (ARCA), tax year 2025, third category farm income
-Mexico Declaracion Anual de Personas Fisicas 2025 (SAT online), Actividad empresarial - Titulo IV, Cap. II, Seccion I LISR (persona fisica, actividad ganadera)
-Kenya IT1 Individual Income Tax Return (resident individual, farming income section), KRA iTax, year of income 2025
-Zimbabwe ITF 12C Income Tax Self Assessment Return, tax year ended 31 December 2025
-Any other country A simple income and expense report your accountant can use.
+The app fills in the farm tax form for the country you are in. Every expense lands on the right line. At year end, send your accountant one file.
+The United States first.
+Then Canada, Australia and England.
 Drafts only. Your accountant checks and files.
 Want Headway on your place?
 Our first ranches are already lined up. Tell us about yours.
@@ -425,7 +421,7 @@ No monthly or yearly plan for the app. Use it to run your place, for profit too.
 Owned by Headway
 No copying, reselling or rebuilding it.
 Your data is yours
-Export everything any time. We never sell it.
+Export everything any time. We never sell or share it without your express permission.
 The tags run on a cost-effective subscription. The full license comes with the app at launch, and its terms decide.
 Want Headway on your place?
 Our first ranches are already lined up. Tell us about yours.
@@ -447,13 +443,13 @@ Sound first, with welfare rules built into the tag.
 An ear tag, not a collar.
 No subscription for the app. Your data is yours.
 Tags are in testing. We will tell you when they are ready.
-Headway ear tag, from our CAD model.
+The herd tag, camera tag and lead tag, from our CAD model.
 Headway at a glance
-Product Solar ear tags that hold a virtual fence, and one app for the whole place
+Product Three solar ear tags that hold a virtual fence, and one app for the whole place
 Livestock All livestock
 Worn as An ear tag, not a collar
 Power Charged by the sun. Built to last 15 years
-Fence Sound first. A mild stimulus only as a last step
+Fence Sound first. A stimulus only as a last step
 Also does Moves, splits and guides the herd. Lightning and problem alerts. Weight records with a walk-over scale
 App Map, grazing, herd records, money and tax. No subscription
 Status Tags in testing. Patent pending
@@ -497,7 +493,7 @@ You draw the fence on a map. When an animal walks toward the line, its tag plays
 Is it a legal boundary fence?
 No. Keep your boundary and road fences. Headway is for moving and holding stock inside your place.
 Does it hurt the animals?
-Sound does the work. A mild stimulus is only a last step, with strict limits. Animals walking back or running are left alone.
+Sound does the work. A stimulus is only a last step, with strict limits. Animals walking back or running are left alone.
 Why an ear tag and not a collar?
 No neck strap to stretch, snap or catch on a fence.
 How is the tag powered?
@@ -510,14 +506,16 @@ What does it cost?
 The app has no subscription. The tags run on a cost-effective subscription. Prices come before the first sale.
 Which animals does it work with?
 All livestock: cattle, sheep, goats and more.
+Which tag goes on which animal?
+The herd tag goes on every animal. A few animals in each herd also wear a lead tag or a camera tag in the other ear.
 When does an animal get its tag?
 Its record starts the day it is born, linked to its mother. The Headway tag goes on at weaning, when the ear is big enough.
 Does the tag weigh animals?
 No. It works with a walk-over scale, so each weight saves to the right animal on its own.
 Can a vet see records in the field?
 Yes. Hold a phone to the tag and the record opens.
-Which countries does the tax tool cover?
-12 countries, plus a simple income and expense report for anywhere else. Your accountant checks and files.
+Which tax forms does it fill in?
+The farm tax form for the country you are in. The United States first, then Canada, Australia and England. Your accountant checks and files.
 When can I buy tags?
 Tags are in testing now. Get in touch and we will keep you posted.
 How do I contact Headway?
@@ -644,7 +642,7 @@ Ranch and virtual fencing words explained | Headway
 Skip to the page
 Words we use
 Plain meanings for the words on this site and in the Headway app.
-Virtual fence A fence drawn on a map in an app and held by a tag on each animal, with sound first instead of wire and posts. Strip A smaller part of a paddock that a mob grazes for a short time before moving on. Strip grazing Giving the herd a fresh strip of grass every day or two, with a back fence so grazed ground can rest. Mob A group of animals managed together, such as cows and calves or a group of steers. Paddock A fenced or virtually fenced area of pasture. Keep-out zone An area inside a paddock that animals are kept out of, such as a creek bank or the yard. Rest period Days since a paddock was last grazed. Good rest lets grass grow back. Stocking rate How many animals the land carries. Grazing days How many days a strip or paddock can feed a mob. Holistic Management A way of planning that looks at people, money and land together. Walk-over scale A scale in a lane, often on the way to water, that weighs each animal as it walks across. Daily gain How much weight an animal puts on each day. Withdrawal period Days after a treatment before an animal can be sold for meat or its milk used. Tone The sound a Headway tag plays as an animal walks toward the fence line. Most animals turn back on the tone. Mild stimulus The last step at the fence line, used only after the tones, with strict limits.
+Virtual fence A fence drawn on a map in an app and held by a tag on each animal, with sound first instead of wire and posts. Strip A smaller part of a paddock that a mob grazes for a short time before moving on. Strip grazing Giving the herd a fresh strip of grass every day or two, with a back fence so grazed ground can rest. Mob A group of animals managed together, such as cows and calves or a group of steers. Paddock A fenced or virtually fenced area of pasture. Keep-out zone An area inside a paddock that animals are kept out of, such as a creek bank or the yard. Rest period Days since a paddock was last grazed. Good rest lets grass grow back. Stocking rate How many animals the land carries. Grazing days How many days a strip or paddock can feed a mob. Holistic Management A way of planning that looks at people, money and land together. Walk-over scale A scale in a lane, often on the way to water, that weighs each animal as it walks across. Daily gain How much weight an animal puts on each day. Withdrawal period Days after a treatment before an animal can be sold for meat or its milk used. Tone The sound a Headway tag plays as an animal walks toward the fence line. Most animals turn back on the tone. Stimulus The last step at the fence line, used only after the tones, with strict limits.
 Want Headway on your place?
 Our first ranches are already lined up. Tell us about yours.
 Get in touch Questions
